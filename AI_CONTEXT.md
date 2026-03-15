@@ -32,7 +32,7 @@ This document serves as the primary source of truth for AI assistants working on
 ## 5. Technical Context for Future Assistants
 - **State Management**: Currently high-fidelity static data (mocked in component arrays).
 - **Backend Readiness**: All forms and data-driven sections are ready for API integration (see `integration_guide.md` in root).
-- **Responsive Design**: Mobile-first architecture (320px to 4K).
+- **Responsive Design**: Mobile-first architecture (320px to 4K), including fully responsive Pipeline and Projects grids.
 - **Branding**: Currently text-based logo (`.logo-text`, `.logo-sub`). Official logo integration is a pending next step.
 
 ## 6. Repository
@@ -40,4 +40,4 @@ This document serves as the primary source of truth for AI assistants working on
 - **Deployment**: Linked to Vercel via `main` branch.
 
 ---
-*Last Updated: 2026-03-14*
+*Last Updated: 2026-03-15*
