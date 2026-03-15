@@ -145,7 +145,41 @@
 }
 
 @media (max-width: 768px) {
+  .projects-hero {
+    padding: 60px 0 40px;
+  }
+
   .projects-title {
     font-size: 2.5rem;
+  }
+
+  .model-explanation {
+    padding: 4rem 0;
+    margin-bottom: 40px;
+  }
+
+  .model-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .model-text h2 {
+    font-size: 2rem;
+  }
+
+  .model-visual {
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .project-card {
+    padding: 2rem;
   }
 }
