@@ -36,7 +36,7 @@ This document serves as the primary source of truth for AI assistants working on
 - **Branding**: Currently text-based logo (`.logo-text`, `.logo-sub`). Official logo integration is a pending next step.
 
 ## 6. Repository
-- **GitHub**: [Vercherja/Vercher-Technologies-UI](https://github.com/Vercherja/Vercher-Technologies-UI.git)
+- **GitHub**: [VELLCAdmin/VercherTechSiteUIBranch](https://github.com/VELLCAdmin/VercherTechSiteUIBranch.git)
 - **Deployment**: Linked to Vercel via `main` branch.
 
 ---
