@@ -1,13 +1,19 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import ProductShowcase from '../components/ProductShowcase';
 import './ShepherdsCoreDetailPage.css';
 
 const ShepherdsCoreDetailPage = () => {
-  const features = [
-    { title: 'Member Intelligence', desc: 'Detailed profiles, family groups, and spiritual journey tracking.' },
-    { title: 'Dynamic Attendance', desc: 'Real-time check-ins and automated follow-ups for guests.' },
-    { title: 'Financial Stewardship', desc: 'Secure online giving, recurring donations, and tax-ready reporting.' },
-    { title: 'Volunteer Command', desc: 'Schedule rotations, skill matching, and team communication.' }
+  const mainFeatures = [
+    { 
+      title: 'Absolute Data Security', 
+      desc: 'In an era of endless cloud breaches, true security means physical control. Your data never leaves your PC.',
+      points: ['Stored Locally', 'Zero Telemetry', 'Offline Access']
+    },
+    { 
+      title: 'Physical Data Ownership', 
+      desc: 'You buy it, you own it. No forced subscriptions or cloud-locked databases.',
+      points: ['Perpetual License', 'Direct DB Access', 'Easy Backups']
+    }
   ];
 
   return (
@@ -16,7 +22,7 @@ const ShepherdsCoreDetailPage = () => {
         <div className="container">
           <span className="product-badge">Flagship Utility</span>
           <h1 className="detail-title">ShepherdsCore</h1>
-          <p className="detail-tagline">The essential platform for modern ministry management.</p>
+          <p className="detail-tagline">The Ultimate Church Administration Platform</p>
         </div>
       </section>
 
@@ -44,16 +50,41 @@ const ShepherdsCoreDetailPage = () => {
         </div>
       </section>
 
-      <section className="detail-features">
+      <section className="detail-showcase">
         <div className="container">
-          <h2 className="section-title">Core <span className="gradient-text">Features</span></h2>
-          <div className="features-grid">
-            {features.map((feature, index) => (
-              <div key={index} className="feature-item glass">
+          <h2 className="section-title">Experience the <span className="gradient-text">Interface</span></h2>
+          <p className="section-subtitle">Take a closer look at the tools designed for your ministry.</p>
+          <ProductShowcase />
+        </div>
+      </section>
+
+      <section className="detail-security">
+        <div className="container">
+          <div className="security-grid">
+            {mainFeatures.map((feature, index) => (
+              <div key={index} className="security-card glass">
                 <h3>{feature.title}</h3>
                 <p>{feature.desc}</p>
+                <ul className="security-points">
+                  {feature.points.map((point, i) => (
+                    <li key={i}>
+                      <span className="check">✓</span> {point}
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
+          </div>
+          
+          <div className="backup-info glass">
+            <div className="backup-icon">💾</div>
+            <div className="backup-content">
+              <h4>Ownership & Backups</h4>
+              <p>
+                Your database is stored locally at <code>C:\Users\[User]\ShepherdsCore\</code>. 
+                We recommend a weekly backup of your <code>.db</code> file to a secure USB or cloud folder to ensure your legacy is protected.
+              </p>
+            </div>
           </div>
         </div>
       </section>

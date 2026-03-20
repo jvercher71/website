@@ -34,20 +34,16 @@
 .logo-text {
   font-family: 'Outfit', sans-serif;
   font-weight: 800;
-  font-size: 2rem; /* Was 1.5rem */
-  letter-spacing: 0.12em;
-  background: var(--accent-gradient);
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  color: var(--text-main);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #6366F1 0%, #ec4899 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.logo-sub {
-  font-size: 0.75rem; /* Was 0.6rem */
-  font-weight: 700;
-  letter-spacing: 0.35em;
-  color: var(--text-muted);
-  margin-top: 4px;
 }
 
 .desktop-nav {
