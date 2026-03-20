@@ -10,9 +10,9 @@ const ShepherdsCore = () => {
           <div className="spotlight-content">
             <span className="product-badge">Flagship Utility</span>
             <h2 className="product-title">ShepherdsCore</h2>
-            <p className="product-tagline">Advanced Church Management, Simplified.</p>
+            <p className="product-tagline">The Ultimate Church Administration Platform</p>
             <p className="product-description">
-              Our first core utility product, born from our custom development work for larger congregations. We stripped away the complexity to provide a powerful, essential tool for churches of all sizes.
+              Streamline your congregation management, tithes, scheduling, and communication with our flagship church administration web app. Designed for ease of use and powerful reporting.
             </p>
             <ul className="product-features">
               <li>Member Directory & Management</li>

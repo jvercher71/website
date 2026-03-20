@@ -5,17 +5,17 @@ import './ShepherdsCoreBuyPage.css';
 const ShepherdsCoreBuyPage = () => {
   const plans = [
     {
-      name: 'Essential Ministry',
-      price: '$99',
-      period: '/month',
-      features: ['Up to 500 members', 'Standard giving reports', 'Volunteer rotations', 'Email support'],
-      isPopular: false
-    },
-    {
-      name: 'Growth Collective',
-      price: '$199',
-      period: '/month',
-      features: ['Unlimited members', 'Advanced financial analytics', 'Multi-campus support', 'Priority support'],
+      name: 'Utility License',
+      price: '$600',
+      period: '/perpetual',
+      features: [
+        'Full desktop application local install',
+        'Unlimited members and event tracking',
+        'Local data storage — your data never leaves',
+        'Lifetime major version updates',
+        '1-on-1 priority technical support',
+        'Remote setup & data import assistance'
+      ],
       isPopular: true
     }
   ];
