@@ -69,7 +69,7 @@ const Home = () => {
             </div>
             <div className="about-stats glass">
               <div className="stat-item">
-                <span className="stat-number">10+</span>
+                <span className="stat-number">13+</span>
                 <span className="stat-label">Years Experience</span>
               </div>
             </div>
