@@ -30,6 +30,30 @@ const Home = () => {
       </section>
 
       <Pillars />
+
+      {/* Custom to Utility Pipeline */}
+      <section className="pipeline-section">
+        <div className="container">
+          <div className="pipeline-grid">
+            <div className="pipeline-content">
+              <h2 className="section-title">The <span className="gradient-text">Custom to Utility</span> Pipeline</h2>
+              <p>
+                Every product in our shop started as a high-end custom build for a client. 
+                We take the specialized work we do for industry leaders, strip away the custom bloat, 
+                and generalize the core value into affordable, high-utility products for startups and small businesses.
+              </p>
+              <p>
+                Conversely, our core utility products serve as the powerful foundation for fully custom, 
+                scalable solutions uniquely tailored to your organization's specific needs.
+              </p>
+            </div>
+            <div className="pipeline-visual glass">
+              <div className="pipeline-tag">CUSTOM &rarr; UTILITY</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <ShepherdsCore />
       
       {/* Short About Preview */}
@@ -47,10 +71,6 @@ const Home = () => {
               <div className="stat-item">
                 <span className="stat-number">10+</span>
                 <span className="stat-label">Years Experience</span>
-              </div>
-              <div className="stat-item">
-                <span className="stat-number">50+</span>
-                <span className="stat-label">Projects Delivered</span>
               </div>
             </div>
           </div>

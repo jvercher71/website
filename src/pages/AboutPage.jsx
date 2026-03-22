@@ -6,22 +6,19 @@ const AboutPage = () => {
     {
       name: 'John Austin',
       role: 'CEO / CDO (Chief Design Officer)',
-      bio: 'Handles UI/UX design and manages our extensive client portfolios, ensuring every brand vision is executed with precision.',
-      portfolio: '#',
+      bio: "John leads our design vision with a focus on creating modern, intuitive experiences. He's passionate about blending aesthetic beauty with functional simplicity.",
       icon: '🎨'
     },
     {
       name: 'John Manuel Vercher',
       role: 'CTO (Chief Technology Officer)',
-      bio: 'Directs the core backend development and systems architecture, building the engine that powers our utility and custom solutions.',
-      portfolio: '#',
+      bio: "John handles the technical heavy lifting, building the robust architecture that powers our software. He's dedicated to creating fast, secure, and scalable solutions.",
       icon: '👨‍💻'
     },
     {
       name: 'Seth Lawrence',
       role: 'CFO',
-      bio: 'Oversees all financial operations and internal administration, ensuring the stable growth and corporate integrity of the enterprise.',
-      portfolio: '#',
+      bio: "Seth keeps our operations running smoothly, managing the business side so our engineers can focus on building. He ensures everything we do is built on a stable foundation.",
       icon: '📊'
     }
   ];
@@ -63,7 +60,6 @@ const AboutPage = () => {
                 <h3 className="member-name">{member.name}</h3>
                 <span className="member-role">{member.role}</span>
                 <p className="member-bio">{member.bio}</p>
-                <a href={member.portfolio} className="portfolio-link">View Portfolio →</a>
               </div>
             ))}
           </div>
