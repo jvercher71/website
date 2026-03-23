@@ -11,7 +11,7 @@ const ProductsPage = () => {
       category: 'Church Management',
       tagline: 'Generalized excellence for modern ministry.',
       description: 'The essential platform for member tracking, giving, and volunteer management. Built from enterprise-grade custom solutions.',
-      price: '$99/mo',
+      price: '$600',
       icon: '⛪',
       path: '/products/shepherdscore'
     },
@@ -45,7 +45,7 @@ const ProductsPage = () => {
                   <p className="product-tag">{product.tagline}</p>
                   <p className="product-desc">{product.description}</p>
                   <div className="product-footer">
-                    <span className="product-price">Starting at {product.price}</span>
+                    <span className="product-price">Lifetime License: {product.price}</span>
                     <div className="product-links">
                       <Link to={product.path} className="btn-secondary">Learn More</Link>
                       <Link to={`${product.path}/buy`} className="btn-primary glass">Buy Now</Link>

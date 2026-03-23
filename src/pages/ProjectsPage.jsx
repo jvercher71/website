@@ -12,20 +12,6 @@ const ProjectsPage = () => {
       icon: '⛪',
       path: '/products/shepherdscore',
       highlight: true
-    },
-    {
-      title: 'Enterprise ERP Suite',
-      category: 'Custom Development',
-      description: 'A massive internal tool built for a Fortune 500 logistics company to manage global fleet operations.',
-      tags: ['React', 'Node.js', 'PostgreSQL', 'Internal Tool'],
-      icon: '🏢'
-    },
-    {
-      title: 'Pulse Analytics',
-      category: 'Custom Build',
-      description: 'Real-time telemetry and monitoring dashboard for manufacturing hardware.',
-      tags: ['Hardware', 'Real-time', 'Dashboard'],
-      icon: '📈'
     }
   ];
 

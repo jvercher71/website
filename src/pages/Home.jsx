@@ -50,7 +50,7 @@ const Home = () => {
               </p>
             </div>
             <div className="pipeline-visual glass">
-              <div className="pipeline-tag">CUSTOM &rarr; UTILITY</div>
+              <div className="pipeline-tag">CORE &harr; CUSTOM</div>
             </div>
           </div>
         </div>
