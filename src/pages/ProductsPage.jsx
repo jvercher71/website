@@ -25,7 +25,8 @@ const ProductsPage = () => {
           <h1 className="products-title">Utility <span className="gradient-text">Software Shop</span></h1>
           <p className="products-tagline">
             Bespoke-quality software, generalized for your immediate business needs. 
-            Ready-to-go applications for church staff and small businesses.
+            Rooted in the Mississippi Gulf Coast, we bring the same family-owned care to our utility products 
+            as we do to our high-end custom builds.
           </p>
         </div>
       </section>

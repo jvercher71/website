@@ -30,12 +30,14 @@ const ShepherdsCoreDetailPage = () => {
         <div className="container">
           <div className="story-grid">
             <div className="story-content">
-              <h2>The <span className="gradient-text">Efficiency</span> Story</h2>
+              <h2>The <span className="gradient-text">Stewardship</span> Story</h2>
               <p>
-                ShepherdsCore wasn't built in a vacuum. It was forged through years of custom development for some of the largest congregations in the country. 
+                ShepherdsCore wasn't built in a vacuum. It was forged through years of custom development for some of the largest congregations in the country, 
+                where we learned that true efficiency is a form of stewardship.
               </p>
               <p>
-                We took the most powerful features from those enterprise builds and stripped away the bloat. What remains is a high-performance, essential utility that gives churches of all sizes the tools they need to thrive without the enterprise price tag.
+                We took the most powerful features from those enterprise builds and stripped away the bloat. What remains is a high-performance, essential utility 
+                that helps churches of all sizes protect their legacy and thrive—without the enterprise price tag.
               </p>
               <div className="custom-upsell-mini glass">
                 <p><strong>Need something even more custom?</strong> We can build a bespoke version uniquely tailored to your church's specific workflows.</p>
