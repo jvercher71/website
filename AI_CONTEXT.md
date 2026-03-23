@@ -38,9 +38,13 @@ We operate a dual-model approach:
 - **Stewardship First**: Position software purchases as high-fidelity investments that protect ministry legacies and financial resources.
 - **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
 
-## 6. Key Repository & URLs
-- **Main GitHub**: [https://github.com/jvercher71/websites.git](https://github.com/jvercher71/websites.git)
-- **Production Host**: Vercel (Auto-deploy from `main`).
+## 6. Repository & Branch Strategy
+- **Primary GitHub**: [https://github.com/jvercher71/websites.git](https://github.com/jvercher71/websites.git)
+- **Primary Branch**: `main` (All work must be integrated into this branch).
+- **Deployment**: Vercel (Auto-deploy from `main` of the `websites` repo).
+
+> [!IMPORTANT]
+> **Source of Truth**: All AI agents must prioritize the `websites` repository and work within the `main` branch. Avoid creating disconnected feature branches unless specifically requested, and always ensure all work is merged back into the primary history to maintain synchronization.
 
 ## 7. Technical Standards
 - **Responsive**: Mobile-first architecture required.
@@ -48,4 +52,4 @@ We operate a dual-model approach:
 - **Branding**: Text-based branding with the stylized "VERCHER TECHNOLOGIES" logo in the footer.
 
 ---
-*Last Updated: 2026-03-23 (Post-Marketing Audit)*
+*Last Updated: 2026-03-23 (Post-Repository Unification)*
