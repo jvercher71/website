@@ -39,12 +39,12 @@ We operate a dual-model approach:
 - **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
 
 ## 6. Repository & Branch Strategy
-- **Primary Origin**: [https://github.com/jvercher71/websites.git](https://github.com/jvercher71/websites.git)
+- **Primary Origin**: [https://github.com/Vercherja/Portfolio-Website.git](https://github.com/Vercherja/Portfolio-Website.git)
 - **Primary Branch**: `main` (All work must be integrated into this branch).
 - **Deployment**: Vercel (Auto-deployed directly from `origin/main`).
 
 > [!IMPORTANT]
-> **Source of Truth**: The `websites.git` repository (now set as `origin`) is the only source of truth. All work must be conducted on the `main` branch. Avoid any disconnected histories or feature branches unless they are immediately merged and pushed to this primary origin.
+> **Source of Truth**: The `Portfolio-Website.git` repository (now set as `origin`) is the only source of truth. All work must be conducted on the `main` branch. Avoid any disconnected histories or feature branches unless they are immediately merged and pushed to this primary origin.
 
 ## 7. Technical Standards
 - **Responsive**: Mobile-first architecture required.
