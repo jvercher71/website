@@ -43,10 +43,10 @@ function App() {
           <div className="container">
             <div className="footer-content">
               <div className="footer-brand">
-                <a href="/" className="footer-logo">
+                <Link to="/" className="footer-logo">
                   <span className="logo-main">VERCHER</span>
                   <span className="logo-sub">TECHNOLOGIES</span>
-                </a>
+                </Link>
                 <p className="footer-tagline">Purposive engineering for high-utility software.</p>
               </div>
               <div className="footer-links-container">
