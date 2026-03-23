@@ -4,21 +4,33 @@ import './ProductShowcase.css';
 const slides = [
   {
     id: 'dashboard',
-    title: 'Ministry Dashboard',
-    desc: 'Your command center. Get a quick overview of active members, monthly & annual giving trends, and recent contributions at a glance.',
+    title: 'Stewardship Dashboard',
+    desc: 'Your ministry command center. Monitor health with a quick overview of active members and giving trends—all without the "member tax" of cloud subscriptions.',
     image: '/assets/dashboard.png'
   },
   {
     id: 'members',
-    title: 'Member Intelligence',
-    desc: 'Complete directory management. Track names, photos, spiritual journeys, and family connectivity with lightning-fast search.',
+    title: 'Legacy Intelligence',
+    desc: 'Complete directory management designed to protect your congregation\'s legacy. Track naming, spiritual journeys, and family connectivity with physical data security.',
     image: '/assets/members.png'
   },
   {
     id: 'giving',
-    title: 'Financial Stewardship',
-    desc: 'Easily log contributions by category (Tithe, Missions, Building Fund). Automated tracking for tax-compliant reporting.',
+    title: 'Financial Sovereignty',
+    desc: 'Log tithes and offerings directly into your private database. Automated, tax-compliant tracking that saves you thousands in yearly SaaS fees.',
     image: '/assets/giving.png'
+  },
+  {
+    id: 'security',
+    title: 'Absolute Data Security',
+    desc: 'True security means physical control. In an era of cloud breaches, your data remains safely stored on your local hardware—zero telemetry, zero risk.',
+    image: '/assets/dashboard.png' // Using dashboard as a fallback or a placeholder for security view
+  },
+  {
+    id: 'ownership',
+    title: 'Physical Data Ownership',
+    desc: 'You buy it, you own it. No forced subscriptions, no cloud-locked databases. Own your ministry software, don\'t rent it.',
+    image: '/assets/giving.png' // Using giving as a placeholder for ownership view
   }
 ];
 
@@ -56,15 +68,12 @@ const ProductShowcase = () => {
                         <div className="mockup-ui">
                           <div className="mockup-nav"></div>
                           <div className="mockup-chart"></div>
-                          <div className="mockup-stats">
-                            <div></div><div></div><div></div>
-                          </div>
                         </div>
                       )}
                       {slide.id === 'members' && (
                         <div className="mockup-ui">
                           <div className="mockup-list">
-                            <div></div><div></div><div></div><div></div>
+                            <div></div><div></div><div></div>
                           </div>
                         </div>
                       )}
@@ -75,7 +84,7 @@ const ProductShowcase = () => {
                         </div>
                       )}
                     </div>
-                    {/* <img src={slide.image} alt={slide.title} className="slide-image" /> */}
+                    <img src={slide.image} alt={slide.title} className="slide-image" onError={(e) => e.target.style.display='none'} />
                     <div className="image-overlay"></div>
                   </div>
                   <div className="slide-info">
