@@ -53,9 +53,9 @@ const AboutPage = () => {
       <section className="about-vercher">
         <div className="container">
           <div className="about-intro-card glass">
-            <h2 className="section-title">About <span className="gradient-text">Vercher Technologies</span></h2>
+            <h2 className="section-title">About <span className="gradient-text">Us</span></h2>
             <p className="intro-text">
-              Vercher Technologies is a family-owned and operated software development firm rooted in the heart of the **Mississippi Gulf Coast**. 
+              Vercher Technologies is a family-owned and operated software development firm rooted in the heart of the Mississippi Gulf Coast. 
               We believe that the best digital solutions are built on the same values that define our community: hard work, integrity, and a personal touch.
             </p>
             <p className="intro-text">
