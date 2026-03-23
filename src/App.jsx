@@ -44,32 +44,36 @@ function App() {
             <div className="footer-content">
               <div className="footer-brand">
                 <a href="/" className="footer-logo">
-                  <span className="logo-text">VERCHER</span>
+                  <span className="logo-main">VERCHER</span>
                   <span className="logo-sub">TECHNOLOGIES</span>
                 </a>
                 <p className="footer-tagline">Purposive engineering for high-utility software.</p>
               </div>
-              <div className="footer-links-grid">
-                <div className="link-col">
+              <div className="footer-links-container">
+                <div className="footer-col">
                   <h4>Company</h4>
-                  <a href="/about">About Us</a>
-                  <a href="/projects">Our Work</a>
-                  <a href="/contact">Contact</a>
+                  <div className="footer-links">
+                    <Link to="/about">About Us</Link>
+                    <Link to="/projects">Our Work</Link>
+                    <Link to="/contact">Contact</Link>
+                  </div>
                 </div>
-                <div className="link-col">
+                <div className="footer-col">
                   <h4>Products</h4>
-                  <a href="/products">Software Shop</a>
-                  <a href="/products/shepherdscore">ShepherdsCore</a>
+                  <div className="footer-links">
+                    <Link to="/products">Software Shop</Link>
+                    <Link to="/products/shepherdscore">ShepherdsCore</Link>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="footer-bottom">
               <p>
                 &copy; {new Date().getFullYear()} Vercher Technologies. All rights reserved. 
-                <span className="footer-attribution">
-                  A division of <a href="https://vercherenterprises.com" target="_blank" rel="noopener noreferrer">Vercher Enterprises, LLC</a>
-                </span>
               </p>
+              <div className="footer-attribution">
+                A division of <a href="https://vercherenterprises.com" target="_blank" rel="noopener noreferrer">Vercher Enterprises, LLC</a>
+              </div>
             </div>
           </div>
         </footer>
