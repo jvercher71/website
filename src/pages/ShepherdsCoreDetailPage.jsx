@@ -7,13 +7,15 @@ const ShepherdsCoreDetailPage = () => {
   const mainFeatures = [
     { 
       title: 'Absolute Data Security', 
-      desc: 'In an era of endless cloud breaches, true security means physical control. Your data never leaves your PC.',
-      points: ['Stored Locally', 'Zero Telemetry', 'Offline Access']
+      desc: 'In an era of endless cloud breaches, true security means physical control. Your data remains on your hardware—exactly where it belongs.',
+      points: ['Stored Locally', 'Zero Telemetry', 'Offline-First Access'],
+      icon: '🛡️'
     },
     { 
       title: 'Physical Data Ownership', 
-      desc: 'You buy it, you own it. No forced subscriptions or cloud-locked databases.',
-      points: ['Perpetual License', 'Direct DB Access', 'Easy Backups']
+      desc: 'You buy it, you own it. No forced subscriptions, no cloud-locked databases, and no "member tax" for growing your congregation.',
+      points: ['Perpetual License', 'Direct SQL Access', 'Independent Backups'],
+      icon: '🔑'
     }
   ];
 
@@ -21,33 +23,48 @@ const ShepherdsCoreDetailPage = () => {
     <div className="product-detail-page">
       <section className="detail-hero">
         <div className="container">
-          <span className="product-badge">Flagship Utility</span>
-          <h1 className="detail-title">ShepherdsCore</h1>
-          <p className="detail-tagline">The Ultimate Church Administration Platform</p>
+          <div className="hero-content">
+            <span className="product-badge glass">The Stewardship Standard</span>
+            <h1 className="detail-title">Shepherds<span className="gradient-text">Core</span></h1>
+            <p className="detail-tagline">The Ultimate Foundation for Church Administration & Legacy Protection.</p>
+            <div className="hero-actions">
+              <Link to="/products/shepherdscore/buy" className="btn-primary glass">Get Started Today</Link>
+              <a href="#stewardship" className="scroll-hint">Explore the Story ↓</a>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="detail-story">
+      <section id="stewardship" className="detail-story">
         <div className="container">
           <div className="story-grid">
             <div className="story-content">
+              <span className="section-label">Our Philosophy</span>
               <h2>The <span className="gradient-text">Stewardship</span> Story</h2>
-              <p>
-                ShepherdsCore wasn't built in a vacuum. It was forged through years of custom development for some of the largest congregations in the country, 
-                where we learned that true efficiency is a form of stewardship.
+              <p className="lead-text">
+                ShepherdsCore wasn't built in a vacuum. It was forged through years of custom development for some of the largest congregations in the country.
               </p>
+              <div className="story-bits">
+                <div className="story-bit">
+                  <span className="bit-icon">🚀</span>
+                  <p>Developed from enterprise-grade logic, stripped of unnecessary cloud bloat.</p>
+                </div>
+                <div className="story-bit">
+                  <span className="bit-icon">🤝</span>
+                  <p>Designed for churches that value financial wisdom and data sovereignty.</p>
+                </div>
+              </div>
               <p>
-                We took the most powerful features from those enterprise builds and stripped away the bloat. What remains is a high-performance, essential utility 
-                that helps churches of all sizes protect their legacy and thrive—without the enterprise price tag.
+                What remains is a high-performance, essential utility that helps churches of all sizes protect their legacy and thrive—without the recurring enterprise price tag.
               </p>
               <div className="custom-upsell-mini glass">
-                <p><strong>Need something even more custom?</strong> We can build a bespoke version uniquely tailored to your church's specific workflows.</p>
+                <p><strong>Need something even more custom?</strong> We build bespoke versions tailored uniquely to your specific workflows.</p>
                 <Link to="/contact" className="upsell-link">Discuss Custom Build →</Link>
               </div>
             </div>
             <div className="story-visual glass">
               <div className="visual-orb-large"></div>
-              <span>GENERALIZED EXCELLENCE</span>
+              <div className="visual-tag">CORE UTILITY FOUNDATION</div>
             </div>
           </div>
         </div>
@@ -61,24 +78,35 @@ const ShepherdsCoreDetailPage = () => {
               "We saw a need for privacy and stewardship that cloud vendors weren't meeting. 
               Our mission is to ensure that your church's data—and its legacy—is owned by you, not a monthly bill."
             </p>
-            <span className="trust-attribution">— The Vercher Family</span>
+            <div className="trust-footer">
+              <span className="trust-attribution">The Vercher Family</span>
+              <span className="trust-location">Mississippi Gulf Coast</span>
+            </div>
           </div>
         </div>
       </section>
 
       <section className="detail-showcase">
         <div className="container">
-          <h2 className="section-title">Experience the <span className="gradient-text">Interface</span></h2>
-          <p className="section-subtitle">Take a closer look at the tools designed for your ministry.</p>
+          <span className="section-label">Interface Tour</span>
+          <h2 className="section-title">High-Fidelity <span className="gradient-text">Control</span></h2>
+          <p className="section-subtitle">Take a closer look at the tools designed for modern ministry stewardship.</p>
           <ProductShowcase />
         </div>
       </section>
 
       <section className="detail-security">
         <div className="container">
+          <div className="security-header text-center">
+            <span className="section-label">Uncompromising Security</span>
+            <h2>Physical <span className="gradient-text">Protection</span></h2>
+            <p className="section-subtitle">True security is about control, not promises.</p>
+          </div>
+          
           <div className="security-grid">
             {mainFeatures.map((feature, index) => (
               <div key={index} className="security-card glass">
+                <div className="card-icon">{feature.icon}</div>
                 <h3>{feature.title}</h3>
                 <p>{feature.desc}</p>
                 <ul className="security-points">
@@ -95,10 +123,10 @@ const ShepherdsCoreDetailPage = () => {
           <div className="backup-info glass">
             <div className="backup-icon">💾</div>
             <div className="backup-content">
-              <h4>Ownership & Backups</h4>
+              <h4>Ownership & Physical Backups</h4>
               <p>
-                Your database is stored locally at <code>C:\Users\[User]\ShepherdsCore\</code>. 
-                We recommend a weekly backup of your <code>.db</code> file to a secure USB or cloud folder to ensure your legacy is protected.
+                No cloud locks means your database is yours. It is stored locally at <code>C:\Users\[User]\ShepherdsCore\</code>. 
+                We recommend a weekly physical backup to a secure USB drive for absolute legacy protection.
               </p>
             </div>
           </div>
@@ -107,6 +135,11 @@ const ShepherdsCoreDetailPage = () => {
 
       <section className="detail-comparison">
         <div className="container">
+          <div className="comparison-header text-center">
+            <span className="section-label">Market Value</span>
+            <h2>The <span className="gradient-text">Stewardship</span> Difference</h2>
+            <p className="section-subtitle">Comparing the lifetime value of ownership vs. cloud subscriptions.</p>
+          </div>
           <ComparisonTable />
         </div>
       </section>
@@ -114,11 +147,13 @@ const ShepherdsCoreDetailPage = () => {
       <section className="detail-cta">
         <div className="container">
           <div className="cta-card glass">
-            <h2>Ready to transform your <span className="gradient-text">ministry?</span></h2>
-            <p>Schedule a personalized demo or choose a plan to get started today.</p>
-            <div className="cta-actions">
-              <Link to="/products/shepherdscore/buy" className="btn-primary glass">Get Started</Link>
-              <Link to="/products/shepherdscore/demo" className="btn-secondary">Request Demo</Link>
+            <div className="cta-content">
+              <h2>Ready to protect your <span className="gradient-text">ministry?</span></h2>
+              <p>Choose a plan that fits your stewardship goals or request a personalized demo.</p>
+              <div className="cta-actions">
+                <Link to="/products/shepherdscore/buy" className="btn-primary glass">Get Started Now</Link>
+                <Link to="/products/shepherdscore/demo" className="btn-secondary">Request Live Demo</Link>
+              </div>
             </div>
           </div>
         </div>
