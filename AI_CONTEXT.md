@@ -39,7 +39,7 @@ We operate a dual-model approach:
 - **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
 
 ## 6. Key Repository & URLs
-- **Main GitHub**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
+- **Main GitHub**: [https://github.com/jvercher71/websites.git](https://github.com/jvercher71/websites.git)
 - **Production Host**: Vercel (Auto-deploy from `main`).
 
 ## 7. Technical Standards
