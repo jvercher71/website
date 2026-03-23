@@ -6,31 +6,56 @@ const slides = [
     id: 'dashboard',
     title: 'Stewardship Dashboard',
     desc: 'Your ministry command center. Monitor health with a quick overview of active members and giving trends—all without the "member tax" of cloud subscriptions.',
+    bits: [
+      'Real-time Participation Metrics',
+      'Giving & Trend Analytics',
+      'Live Contribution Feed'
+    ],
     image: '/assets/dashboard.png'
   },
   {
     id: 'members',
     title: 'Legacy Intelligence',
     desc: 'Complete directory management designed to protect your congregation\'s legacy. Track naming, spiritual journeys, and family connectivity with physical data security.',
+    bits: [
+      'Photo-Enabled Directory',
+      'Spiritual Journey Tracking',
+      'Family Connectivity Mapping'
+    ],
     image: '/assets/members.png'
   },
   {
     id: 'giving',
     title: 'Financial Sovereignty',
     desc: 'Log tithes and offerings directly into your private database. Automated, tax-compliant tracking that saves you thousands in yearly SaaS fees.',
+    bits: [
+      'Multi-Fund Category Logging',
+      'Automated Tax Statements',
+      'Financial Projection Tools'
+    ],
     image: '/assets/giving.png'
   },
   {
     id: 'security',
     title: 'Absolute Data Security',
     desc: 'True security means physical control. In an era of cloud breaches, your data remains safely stored on your local hardware—zero telemetry, zero risk.',
-    image: '/assets/dashboard.png' // Using dashboard as a fallback or a placeholder for security view
+    bits: [
+      'Zero-Cloud Storage Perimeter',
+      'Offline-First Architecture',
+      'No Vendor Telemetry Tracking'
+    ],
+    image: '/assets/dashboard.png'
   },
   {
     id: 'ownership',
     title: 'Physical Data Ownership',
     desc: 'You buy it, you own it. No forced subscriptions, no cloud-locked databases. Own your ministry software, don\'t rent it.',
-    image: '/assets/giving.png' // Using giving as a placeholder for ownership view
+    bits: [
+      'Perpetual License Rights',
+      'Direct SQL Database Access',
+      'Independent Backup Control'
+    ],
+    image: '/assets/giving.png'
   }
 ];
 
@@ -90,6 +115,13 @@ const ProductShowcase = () => {
                   <div className="slide-info">
                     <h3>{slide.title}</h3>
                     <p>{slide.desc}</p>
+                    <ul className="slide-bits">
+                      {slide.bits.map((bit, i) => (
+                        <li key={i}>
+                          <span className="bit-check">✓</span> {bit}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               </div>
