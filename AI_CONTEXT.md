@@ -1,43 +1,51 @@
 # AI Context: Vercher Technologies (VTOne)
 
-This document serves as the primary source of truth for AI assistants working on the Vercher Technologies platform.
+This document is the primary source of truth for AI assistants working on the Vercher Technologies platform.
 
 ## 1. Project Overview
-**Vercher Technologies** is a premium software collective specializing in "Purposive Engineering." We follow a strategic "Custom to Utility" pipeline:
-- **Custom Development**: Bespoke enterprise solutions for high-end clients.
-- **Utility Products**: Stripped-down, generalized versions of custom builds sold as SaaS/Sourced products (e.g., **ShepherdsCore** for church management).
-- **Managed Services**: Long-term developer partnerships and system administration.
+**Vercher Technologies** is a family-owned and operated software development firm based on the **Mississippi Gulf Coast** (Gulfport, MS). We specialize in bridging the gap between high-end enterprise solutions and affordable utility software.
+
+### Core Philosophy
+- **Family-First Integrity**: Personal interest in every project; work reflects the family name.
+- **Gulf Coast Proud**: Committed to the Southern tech landscape.
+- **Tailored Innovation**: Bespoke solutions for unique business needs.
 
 ## 2. Technology Stack
-- **Framework**: Vite + React
+- **Frontend**: Vite + React
 - **Routing**: `react-router-dom` (Version 7+)
-- **Styling**: Vanilla CSS with a global `index.css` defining the design system (HSL colors, glassmorphism).
-- **Deployment**: Vercel (GitHub integration)
-- **Application Preset**: Vite
+- **Styling**: Vanilla CSS (Global `index.css` for design system, component-specific CSS files).
+- **Deployment**: Vercel (linked to GitHub `main` branch).
 
-## 3. Core Pages & Routes
-- `/`: Home (Strategic paths for Buyers vs. Clients).
-- `/about`: Leadership team (John Austin, John Manuel Vercher, Seth Lawrence).
-- `/products`: Marketplace for utility software.
-- `/projects`: Portfolio highlighting the "Custom to Utility" pipeline.
-- `/contact`: Dedicated lead capture for custom builds and managed services.
-- `/products/shepherdscore`: Flagship product detail page.
-- `/products/shepherdscore/demo`: Specialized ministry-focused demo request.
-- `/products/shepherdscore/buy`: Tiered pricing with an **Enterprise Upsell** for custom builds.
+## 3. Site Map & Navigation
+- `/`: Home (Strategic paths for **Software Solutions** vs. **Strategic Partnerships**).
+- `/about`: Company story and leadership (John Austin, John Manuel Vercher, Seth Lawrence).
+- `/products`: Marketplace for "Core Utility" software.
+- `/projects`: Portfolio highlighting custom builds and foundational products.
+- `/contact`: Lead capture for custom builds and partnerships.
+- `/products/shepherdscore`: Flagship church management product ($600 Lifetime License).
+    - **Marketing Focus**: **Stewardship & Legacy** for congregations.
+    - **Key Argument**: $600 lifetime ownership is a massive act of stewardship compared to cloud subscriptions ($4,000 - $7,000+ over 5 years).
+    - **Data Sovereignty**: Physical control of data is a primary security and trust differentiator.
 
-## 4. Business Logic & Conversion Goals
-- **Dual Funnel**: The site must clearly distinguish between users looking to buy ready-made software and those needing a professional developer relationship.
-- **Custom Upsell**: Product pages should always offer a "Bespoke" or "Custom Build" alternative to capture high-value enterprise leads from basic product traffic.
+## 4. Business Model: The "Core to Custom" Foundation
+We operate a dual-model approach:
+1. **Custom Development**: Bespoke builds for industry leaders, providing deep operational insights.
+2. **Core Utility**: Independent products built using foundational patterns from our custom work, offered as affordable "Sourced" software for startups and small businesses.
+3. **Flexible Scaling**: Any core utility can be expanded into a fully bespoke solution as a client's needs grow.
 
-## 5. Technical Context for Future Assistants
-- **State Management**: Currently high-fidelity static data (mocked in component arrays).
-- **Backend Readiness**: All forms and data-driven sections are ready for API integration (see `integration_guide.md` in root).
-- **Responsive Design**: Mobile-first architecture (320px to 4K), including fully responsive Pipeline and Projects grids.
-- **Branding**: Currently text-based logo (`.logo-text`, `.logo-sub`). Official logo integration is a pending next step.
+## 5. Marketing & Identity Standards
+- **Tone & Voice**: Professional yet personal; emphasis on family-owned integrity and Mississippi roots. Move away from cold "Collective" terminology toward "Family-Owned Firm".
+- **Stewardship First**: Position software purchases as high-fidelity investments that protect ministry legacies and financial resources.
+- **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
 
-## 6. Repository
-- **GitHub**: [Vercherja/Vercher-Technologies-UI](https://github.com/Vercherja/Vercher-Technologies-UI.git)
-- **Deployment**: Linked to Vercel via `main` branch.
+## 6. Key Repository & URLs
+- **Main GitHub**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
+- **Production Host**: Vercel (Auto-deploy from `main`).
+
+## 7. Technical Standards
+- **Responsive**: Mobile-first architecture required.
+- **Aesthetics**: Premium, high-fidelity design with glassmorphism and modern typography (Outfit/Inter).
+- **Branding**: Text-based branding with the stylized "VERCHER TECHNOLOGIES" logo in the footer.
 
 ---
-*Last Updated: 2026-03-15*
+*Last Updated: 2026-03-23 (Post-Marketing Audit)*

@@ -1,0 +1,98 @@
+.comparison-container {
+  margin: 3rem auto;
+  padding: 2.5rem;
+  border-radius: 24px;
+  max-width: 900px;
+}
+
+.comparison-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.comparison-header h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.comparison-header p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.comparison-table th, 
+.comparison-table td {
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.comparison-table th {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.highlight-column {
+  color: var(--accent-primary) !important;
+  font-weight: 700 !important;
+}
+
+.row-label {
+  font-weight: 500;
+  color: var(--text-main);
+}
+
+.shepherds-value {
+  color: var(--text-main);
+  font-weight: 700;
+  background: rgba(168, 85, 247, 0.05); /* Subtle purple wash */
+}
+
+.cloud-value {
+  color: var(--text-muted);
+}
+
+.row-highlight td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.row-highlight .shepherds-value {
+  color: var(--accent-primary);
+  font-weight: 800;
+}
+
+.comparison-footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.comparison-footer p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .comparison-container {
+    padding: 1.5rem;
+  }
+  
+  .comparison-table th, 
+  .comparison-table td {
+    padding: 0.75rem;
+    font-size: 0.85rem;
+  }
+}
