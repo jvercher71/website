@@ -7,8 +7,8 @@ const ProjectsPage = () => {
     {
       title: 'ShepherdsCore',
       category: 'Utility Product (Featured)',
-      description: 'Our flagship church management platform, generalized from high-fidelity custom builds for national congregations.',
-      tags: ['Product', 'SaaS', 'Church Tech', 'Generalized'],
+      description: 'Our flagship church management platform, built on the robust, foundational logic we bring to our high-fidelity custom builds.',
+      tags: ['Product', 'SaaS', 'Church Tech', 'Foundational'],
       icon: '⛪',
       path: '/products/shepherdscore',
       highlight: true
@@ -45,14 +45,17 @@ const ProjectsPage = () => {
         <div className="container">
           <div className="model-grid">
             <div className="model-text">
-              <h2>The <span className="gradient-text">Custom to Utility</span> Pipeline</h2>
+              <h2>The <span className="gradient-text">Core to Custom</span> Foundation</h2>
               <p>
-                Every product in our shop started as a high-end custom build for a client. We take the specialized work we do for industry leaders, strip away the custom bloat, and generalize the core value into affordable, high-utility products.
+                We provide a unique dual-model approach. We gain deep industry insights from our high-end custom builds, 
+                which we use to develop independent, high-utility products. This allows us to provide enterprise-grade 
+                logic in affordable, streamlined packages—while ensuring our custom clients receive entirely 
+                unique, proprietary solutions.
               </p>
             </div>
             <div className="model-visual">
               <div className="visual-line"></div>
-              <span>CUSTOM → UTILITY</span>
+              <span>CORE ↔ CUSTOM</span>
             </div>
           </div>
         </div>

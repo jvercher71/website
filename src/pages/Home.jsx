@@ -36,15 +36,17 @@ const Home = () => {
         <div className="container">
           <div className="pipeline-grid">
             <div className="pipeline-content">
-              <h2 className="section-title">The <span className="gradient-text">Custom to Utility</span> Pipeline</h2>
+              <h2 className="section-title">The <span className="gradient-text">Core to Custom</span> Foundation</h2>
               <p>
-                Every product in our shop started as a high-end custom build for a client. 
-                We take the specialized work we do for industry leaders, strip away the custom bloat, 
-                and generalize the core value into affordable, high-utility products for startups and small businesses.
+                We offer a unique dual-model approach. We build high-end custom solutions for industry leaders, 
+                gaining deep insights into complex operational challenges. We use those insights to develop 
+                our own independent **Core Utility** products—providing smaller organizations with 
+                enterprise-grade logic in affordable, streamlined packages.
               </p>
               <p>
-                Conversely, our core utility products serve as the powerful foundation for fully custom, 
-                scalable solutions uniquely tailored to your organization's specific needs.
+                Conversely, any of our core utilities can be expanded into a fully custom, bespoke solution 
+                tailored exclusively to your organization's unique requirements, ensuring a perfect 
+                fit as your business scales.
               </p>
             </div>
             <div className="pipeline-visual glass">
