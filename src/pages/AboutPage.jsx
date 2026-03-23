@@ -53,14 +53,14 @@ const AboutPage = () => {
       <section className="about-vercher">
         <div className="container">
           <div className="about-intro-card glass">
-            <h2 className="section-title">About <span className="gradient-text">Us</span></h2>
+            <h2 className="section-title">A Family <span className="gradient-text">Legacy</span></h2>
             <p className="intro-text">
               Vercher Technologies is a family-owned and operated software development firm rooted in the heart of the Mississippi Gulf Coast. 
-              We believe that the best digital solutions are built on the same values that define our community: hard work, integrity, and a personal touch.
+              Founded by John Manuel Vercher and his son, John Austin, our team is bound by more than just engineering—it's bound by integrity and a personal touch.
             </p>
             <p className="intro-text">
-              As a family business, we don’t just see our clients as account numbers—we see them as partners. 
-              We understand the importance of building a legacy and the dedication it takes to grow a dream from the ground up. 
+              Seth Lawrence, a lifelong friend who has become a brother to John Austin and a second son to John Manuel, completes our leadership. 
+              We are a proud Mississippi company, bringing Gulf Coast grit and family values to every line of code we write. 
               Whether we are developing custom applications or solving complex technical challenges, our mission is to provide 
               the high-level expertise of a global tech firm with the accessibility and care of a local neighbor.
             </p>
@@ -85,12 +85,6 @@ const AboutPage = () => {
                 <p>We specialize in custom software and app development designed to meet the unique needs of your business or project.</p>
               </div>
             </div>
-          </div>
-
-          <div className="about-closing">
-            <p>
-              At Vercher Technologies, we aren't just coding software; we’re building the tools that help our community and partners thrive in a digital world.
-            </p>
           </div>
         </div>
       </section>
