@@ -65,7 +65,7 @@ const Home = () => {
             <div className="about-content">
               <h2 className="section-title">Who We <span className="gradient-text">Are</span></h2>
               <p>
-                Vercher Technologies is a family-owned software firm dedicated to building software that actually works for people. We specialize in high-fidelity custom builds for enterprises and stripped-down, high-utility products for small businesses.
+                Vercher Technologies is a family-owned software firm rooted on the Mississippi Gulf Coast. We believe in building software with the same integrity we bring to our community—bridging the gap between high-end custom engineering and high-utility tools for small businesses and ministries.
               </p>
               <Link to="/about" className="btn-secondary">Learn More About Our Story</Link>
             </div>

@@ -22,7 +22,10 @@ This document is the primary source of truth for AI assistants working on the Ve
 - `/products`: Marketplace for "Core Utility" software.
 - `/projects`: Portfolio highlighting custom builds and foundational products.
 - `/contact`: Lead capture for custom builds and partnerships.
-- `/products/shepherdscore`: Flagship church management product ($600 Lifetime License). **Note**: Marketing focus is on **Stewardship & Legacy** for congregations.
+- `/products/shepherdscore`: Flagship church management product ($600 Lifetime License).
+    - **Marketing Focus**: **Stewardship & Legacy** for congregations.
+    - **Key Argument**: $600 lifetime ownership is a massive act of stewardship compared to cloud subscriptions ($4,000 - $7,000+ over 5 years).
+    - **Data Sovereignty**: Physical control of data is a primary security and trust differentiator.
 
 ## 4. Business Model: The "Core to Custom" Foundation
 We operate a dual-model approach:
@@ -30,15 +33,19 @@ We operate a dual-model approach:
 2. **Core Utility**: Independent products built using foundational patterns from our custom work, offered as affordable "Sourced" software for startups and small businesses.
 3. **Flexible Scaling**: Any core utility can be expanded into a fully bespoke solution as a client's needs grow.
 
-## 5. Key Repository & URLs
+## 5. Marketing & Identity Standards
+- **Tone & Voice**: Professional yet personal; emphasis on family-owned integrity and Mississippi roots. Move away from cold "Collective" terminology toward "Family-Owned Firm".
+- **Stewardship First**: Position software purchases as high-fidelity investments that protect ministry legacies and financial resources.
+- **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
+
+## 6. Key Repository & URLs
 - **Main GitHub**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
 - **Production Host**: Vercel (Auto-deploy from `main`).
 
-## 6. Technical Standards
+## 7. Technical Standards
 - **Responsive**: Mobile-first architecture required.
 - **Aesthetics**: Premium, high-fidelity design with glassmorphism and modern typography (Outfit/Inter).
 - **Branding**: Text-based branding with the stylized "VERCHER TECHNOLOGIES" logo in the footer.
-- **Tone & Voice**: Professional yet personal; emphasis on family-owned integrity and Mississippi roots.
 
 ---
-*Last Updated: 2026-03-23*
+*Last Updated: 2026-03-23 (Post-Marketing Audit)*

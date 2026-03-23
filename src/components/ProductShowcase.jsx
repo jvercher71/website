@@ -51,7 +51,31 @@ const ProductShowcase = () => {
               <div key={slide.id} className={`showcase-slide ${position}`}>
                 <div className="slide-content glass">
                   <div className="slide-image-container">
-                    <img src={slide.image} alt={slide.title} className="slide-image" />
+                    <div className={`mockup-fallback ${slide.id}`}>
+                      {slide.id === 'dashboard' && (
+                        <div className="mockup-ui">
+                          <div className="mockup-nav"></div>
+                          <div className="mockup-chart"></div>
+                          <div className="mockup-stats">
+                            <div></div><div></div><div></div>
+                          </div>
+                        </div>
+                      )}
+                      {slide.id === 'members' && (
+                        <div className="mockup-ui">
+                          <div className="mockup-list">
+                            <div></div><div></div><div></div><div></div>
+                          </div>
+                        </div>
+                      )}
+                      {slide.id === 'giving' && (
+                        <div className="mockup-ui">
+                          <div className="mockup-graph"></div>
+                          <div className="mockup-form"></div>
+                        </div>
+                      )}
+                    </div>
+                    {/* <img src={slide.image} alt={slide.title} className="slide-image" /> */}
                     <div className="image-overlay"></div>
                   </div>
                   <div className="slide-info">

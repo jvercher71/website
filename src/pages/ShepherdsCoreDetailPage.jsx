@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import ProductShowcase from '../components/ProductShowcase';
+import ComparisonTable from '../components/ComparisonTable';
 import './ShepherdsCoreDetailPage.css';
 
 const ShepherdsCoreDetailPage = () => {
@@ -52,6 +53,19 @@ const ShepherdsCoreDetailPage = () => {
         </div>
       </section>
 
+      <section className="legacy-trust-section">
+        <div className="container">
+          <div className="trust-card glass">
+            <div className="trust-icon">✝️</div>
+            <p className="trust-quote">
+              "We saw a need for privacy and stewardship that cloud vendors weren't meeting. 
+              Our mission is to ensure that your church's data—and its legacy—is owned by you, not a monthly bill."
+            </p>
+            <span className="trust-attribution">— The Vercher Family</span>
+          </div>
+        </div>
+      </section>
+
       <section className="detail-showcase">
         <div className="container">
           <h2 className="section-title">Experience the <span className="gradient-text">Interface</span></h2>
@@ -88,6 +102,12 @@ const ShepherdsCoreDetailPage = () => {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="detail-comparison">
+        <div className="container">
+          <ComparisonTable />
         </div>
       </section>
 
