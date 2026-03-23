@@ -50,6 +50,22 @@ const AboutPage = () => {
         </div>
       </section>
 
+      <section className="family-heritage">
+        <div className="container">
+          <div className="heritage-content glass">
+            <h2 className="section-title">A Family <span className="gradient-text">Legacy</span></h2>
+            <p>
+              Vercher Technologies isn't just a software shop; it's a family business rooted in the heart of the **Mississippi Gulf Coast**. 
+              Founded by John Manuel Vercher and his son, John Austin, our team is bound by more than just engineering.
+            </p>
+            <p>
+              Seth Lawrence, a lifelong friend who has become a brother to John Austin and a second son to John Manuel, completes our leadership. 
+              We are a proud Mississippi company, bringing Gulf Coast grit and family values to every line of code we write.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="team-section">
         <div className="container">
           <h2 className="section-title">The <span className="gradient-text">Team</span></h2>

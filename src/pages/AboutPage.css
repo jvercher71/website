@@ -107,3 +107,38 @@
     font-size: 2.5rem;
   }
 }
+
+/* Family Heritage Section */
+.family-heritage {
+  padding: 80px 0;
+  position: relative;
+}
+
+.heritage-content {
+  padding: 4rem;
+  border-radius: 40px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.heritage-content p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  margin-top: 1.5rem;
+}
+
+.heritage-content strong {
+  color: var(--text-main);
+}
+
+@media (max-width: 768px) {
+  .heritage-content {
+    padding: 2.5rem 1.5rem;
+  }
+  
+  .heritage-content p {
+    font-size: 1.1rem;
+  }
+}
