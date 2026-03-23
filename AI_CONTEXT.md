@@ -22,7 +22,7 @@ This document is the primary source of truth for AI assistants working on the Ve
 - `/products`: Marketplace for "Core Utility" software.
 - `/projects`: Portfolio highlighting custom builds and foundational products.
 - `/contact`: Lead capture for custom builds and partnerships.
-- `/products/shepherdscore`: Flagship church management product ($600 Lifetime License).
+- `/products/shepherdscore`: Flagship church management product ($600 Lifetime License). **Note**: Marketing focus is on **Stewardship & Legacy** for congregations.
 
 ## 4. Business Model: The "Core to Custom" Foundation
 We operate a dual-model approach:
@@ -38,6 +38,7 @@ We operate a dual-model approach:
 - **Responsive**: Mobile-first architecture required.
 - **Aesthetics**: Premium, high-fidelity design with glassmorphism and modern typography (Outfit/Inter).
 - **Branding**: Text-based branding with the stylized "VERCHER TECHNOLOGIES" logo in the footer.
+- **Tone & Voice**: Professional yet personal; emphasis on family-owned integrity and Mississippi roots.
 
 ---
-*Last Updated: 2026-03-22*
+*Last Updated: 2026-03-23*
