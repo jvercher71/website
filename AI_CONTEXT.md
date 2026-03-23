@@ -39,12 +39,12 @@ We operate a dual-model approach:
 - **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
 
 ## 6. Repository & Branch Strategy
-- **Primary GitHub**: [https://github.com/jvercher71/websites.git](https://github.com/jvercher71/websites.git)
+- **Primary Origin**: [https://github.com/jvercher71/websites.git](https://github.com/jvercher71/websites.git)
 - **Primary Branch**: `main` (All work must be integrated into this branch).
-- **Deployment**: Vercel (Auto-deploy from `main` of the `websites` repo).
+- **Deployment**: Vercel (Auto-deployed directly from `origin/main`).
 
 > [!IMPORTANT]
-> **Source of Truth**: All AI agents must prioritize the `websites` repository and work within the `main` branch. Avoid creating disconnected feature branches unless specifically requested, and always ensure all work is merged back into the primary history to maintain synchronization.
+> **Source of Truth**: The `websites.git` repository (now set as `origin`) is the only source of truth. All work must be conducted on the `main` branch. Avoid any disconnected histories or feature branches unless they are immediately merged and pushed to this primary origin.
 
 ## 7. Technical Standards
 - **Responsive**: Mobile-first architecture required.
