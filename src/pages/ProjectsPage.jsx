@@ -16,8 +16,7 @@ const ProjectsPage = () => {
   ];
 
   return (
-    <div className="projects-page grid-texture">
-      <div className="hero-glow"></div>
+    <div className="projects-page">
       <section className="projects-hero">
         <div className="container">
           <h1 className="projects-title">Our <span className="gradient-text">Work</span></h1>
