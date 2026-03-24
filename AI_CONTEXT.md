@@ -53,12 +53,13 @@ Every project in the `/projects` directory must follow this technical deep-dive 
 - **Result**: The measured impact or the high-fidelity outcome.
 
 ## 7. Repository & Branch Strategy
-- **Primary Origin**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
-- **Primary Branch**: `main` (All work must be integrated into this branch).
-- **Deployment**: Vercel (Auto-deployed directly from `origin/main`).
+- **Primary Origin (Main Live Site)**: [https://github.com/jvercher71/websites.git](https://github.com/jvercher71/websites.git)
+- **Portfolio Origin (Secondary)**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
+- **Primary Branch**: `main` (All work must be integrated into this branch on plural `websites.git`).
+- **Deployment**: Vercel (Auto-deployed directly from `websites.git/main`).
 
 > [!IMPORTANT]
-> **Source of Truth**: The `website.git` repository (singular, under `jvercher71`) is the only source of truth. All work must be conducted on the `main` branch. Avoid any disconnected histories or feature branches unless they are immediately merged and pushed to this primary origin.
+> **Production Source**: The plural `websites.git` is the ONLY source for the live site. Ensure all production-ready work is pushed here.
 
 ## 7. Technical Standards
 - **Responsive**: Mobile-first architecture required.
