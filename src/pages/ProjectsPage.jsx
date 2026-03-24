@@ -6,11 +6,11 @@ const ProjectsPage = () => {
   const projects = [
     {
       title: 'ShepherdsCore',
-      category: 'Utility Product (Featured)',
-      description: 'Our flagship church management platform, built on the robust, foundational logic we bring to our high-fidelity custom builds.',
-      tags: ['Product', 'SaaS', 'Church Tech', 'Foundational'],
-      icon: '⛪',
-      path: '/products/shepherdscore',
+      category: 'Technical Case Study (Featured)',
+      description: 'Developing a high-performance, local-first utility architecture to restore data sovereignty for community organizations.',
+      tags: ['Engineering', 'Architecture', 'SQL', 'Data Sovereignty'],
+      icon: '🏛️',
+      path: '/projects/shepherdscore',
       highlight: true
     }
   ];

@@ -9,6 +9,7 @@ import ContactPage from './pages/ContactPage';
 import ShepherdsCoreDetailPage from './pages/ShepherdsCoreDetailPage';
 import ShepherdsCoreDemoPage from './pages/ShepherdsCoreDemoPage';
 import ShepherdsCoreBuyPage from './pages/ShepherdsCoreBuyPage';
+import ShepherdsCoreCaseStudy from './pages/ShepherdsCoreCaseStudy';
 import './App.css';
 
 // Scroll to top on route change
@@ -36,6 +37,7 @@ function App() {
             <Route path="/products/shepherdscore" element={<ShepherdsCoreDetailPage />} />
             <Route path="/products/shepherdscore/demo" element={<ShepherdsCoreDemoPage />} />
             <Route path="/products/shepherdscore/buy" element={<ShepherdsCoreBuyPage />} />
+            <Route path="/projects/shepherdscore" element={<ShepherdsCoreCaseStudy />} />
           </Routes>
         </main>
         

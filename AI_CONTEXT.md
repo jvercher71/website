@@ -19,28 +19,38 @@ This document is the primary source of truth for AI assistants working on the Ve
 ## 3. Site Map & Navigation
 - `/`: Home (Strategic paths for **Software Solutions** vs. **Strategic Partnerships**).
 - `/about`: Company story and leadership (John Austin, John Manuel Vercher, Seth Lawrence).
-- `/products`: Marketplace for "Core Utility" software.
-- `/projects`: Portfolio highlighting custom builds and foundational products.
-- `/contact`: Lead capture for custom builds and partnerships.
+- `/products`: Marketplace for "Core Utility" software (Direct Consumer/Ministry Sales).
 - `/products/shepherdscore`: Flagship church management product ($600 Lifetime License).
     - **Marketing Focus**: **Stewardship & Simplicity** for small to medium congregations.
     - **Key Argument**: $600 lifetime ownership is a massive act of stewardship compared to cloud subscriptions ($4,000 - $7,000+ over 5 years).
     - **Data Sovereignty**: Physical control of data is a primary security and trust differentiator.
+- `/projects`: Portfolio home for **Technical Case Studies** (Proof of skill for Custom Clients).
+- `/contact`: Lead capture for custom builds and partnerships.
 
 ## 4. Business Model: The "Core to Custom" Foundation
 We operate a dual-model approach:
-1. **Custom Development**: Bespoke builds for industry leaders, providing deep operational insights.
-2. **Core Utility**: Independent products built with a focus on simplicity and high utility, providing smaller organizations with enterprise-grade logic in streamlined, easy-to-manage packages.
+1. **Custom Development**: Bespoke builds for industry leaders, providing deep operational insights. These are showcased as **Technical Case Studies** in the `/projects` section.
+2. **Core Utility**: Independent products built with a focus on simplicity and high utility. These are sold directly via the `/products` section.
 3. **Flexible Scaling**: Any core utility can be expanded into a fully bespoke solution as a client's needs grow.
 
 ## 5. Marketing & Identity Standards
 - **Tone & Voice**: Conversational, grounded, and approachable. Emphasis on family-owned integrity and Mississippi roots. Focus on being a "Local Firm for Local Needs."
-- **Plain English**: Avoid corporate jargon and rigid "marketing-speak." Use direct, active verbs and simpler descriptions (e.g., "Software built to last" instead of "Ultimate Technical Excellence").
+- **Sales vs. Skill**: 
+    - **Sales (Products)**: Focus on simplicity, stewardship, and "No monthly bills."
+    - **Skill (Projects)**: Focus on architecture, technical problem-solving, and engineering excellence.
+- **Plain English**: Avoid corporate jargon in sales copy. Use professional, clear technical terminology in Case Studies.
 - **Small-Church Priority**: Highlight that we build for the congregations that cloud vendors often overlook—those who need simple, powerful tools without the subscription bloat.
 - **Stewardship First**: Position software purchases as high-fidelity investments that protect ministry legacies and financial resources.
 - **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
 
-## 6. Repository & Branch Strategy
+## 6. Technical Case Study Standards
+Every project in the `/projects` directory must follow this technical deep-dive structure:
+- **Challenge**: The business or technical problem identified.
+- **Architecture**: The stack and specific engineering decisions (e.g., Local-First, SQL, Security).
+- **Execution**: The technical journey of solving the problem.
+- **Result**: The measured impact or the high-fidelity outcome.
+
+## 7. Repository & Branch Strategy
 - **Primary Origin**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
 - **Primary Branch**: `main` (All work must be integrated into this branch).
 - **Deployment**: Vercel (Auto-deployed directly from `origin/main`).
