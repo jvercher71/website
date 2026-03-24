@@ -6,7 +6,8 @@ import ShepherdsCore from '../components/ShepherdsCore';
 
 const Home = () => {
   return (
-    <div className="home-page">
+    <div className="home-page grid-texture">
+      <div className="hero-glow"></div>
       <Hero />
       
       {/* Strategic Pathway Selection */}
@@ -21,6 +22,7 @@ const Home = () => {
             </div>
             <div className="pathway-card glass highlight">
               <div className="pathway-icon">🤝</div>
+              <div className="gold-badge" style={{ marginBottom: '1rem', display: 'inline-block' }}>Most Recommended</div>
               <h2>Strategic <span className="gradient-text">Partnerships</span></h2>
               <p>Need a bespoke solution, a custom project build, or a managed developer partnership?</p>
               <Link to="/contact" className="btn-secondary">Let's Talk Custom</Link>

@@ -20,7 +20,8 @@ const ShepherdsCoreDetailPage = () => {
   ];
 
   return (
-    <div className="product-detail-page">
+    <div className="product-detail-page grid-texture">
+      <div className="hero-glow"></div>
       <section className="detail-hero">
         <div className="container">
           <div className="hero-content">
