@@ -19,8 +19,7 @@ const ProductsPage = () => {
   ];
 
   return (
-    <div className="products-page grid-texture">
-      <div className="hero-glow"></div>
+    <div className="products-page">
       <section className="products-hero">
         <div className="container">
           <h1 className="products-title">Utility <span className="gradient-text">Software Shop</span></h1>

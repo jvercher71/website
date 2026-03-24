@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
-@import './VisualRefinement.css'; /* Toggle Refinements Here */
 
 :root {
   /* Colors - Sleek Dark Palette */
@@ -72,7 +71,6 @@ button {
 .gradient-text {
   background: var(--accent-gradient);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
