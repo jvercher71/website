@@ -20,11 +20,11 @@ This document is the primary source of truth for AI assistants working on the Ve
 - `/`: Home (Strategic paths for **Software Solutions** vs. **Strategic Partnerships**).
 - `/about`: Company story and leadership (John Austin, John Manuel Vercher, Seth Lawrence).
 - `/products`: Marketplace for "Core Utility" software (Direct Consumer/Ministry Sales).
-- `/products/shepherdscore`: Flagship church management product ($600 Lifetime License).
+- `/products/shepherdscore`: Flagship church management product (**Sales Page**).
     - **Marketing Focus**: **Stewardship & Simplicity** for small to medium congregations.
-    - **Key Argument**: $600 lifetime ownership is a massive act of stewardship compared to cloud subscriptions ($4,000 - $7,000+ over 5 years).
-    - **Data Sovereignty**: Physical control of data is a primary security and trust differentiator.
-- `/projects`: Portfolio home for **Technical Case Studies** (Proof of skill for Custom Clients).
+    - **Key Argument**: $600 lifetime ownership vs. cloud subscriptions.
+- `/projects/shepherdscore`: Technical Case Study (**Skill Showcase**).
+    - **Engineering Focus**: Local-First architecture, SQLite, and data sovereignty.
 - `/contact`: Lead capture for custom builds and partnerships.
 
 ## 4. Business Model: The "Core to Custom" Foundation
