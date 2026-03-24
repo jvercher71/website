@@ -5,36 +5,36 @@ const AboutPage = () => {
   const team = [
     {
       name: 'John Austin',
-      role: 'CEO / CDO (Chief Design Officer)',
-      bio: "John leads our design vision with a focus on creating modern, intuitive experiences. He's passionate about blending aesthetic beauty with functional simplicity.",
+      role: 'CEO / CDO',
+      bio: "John Austin leads our design, making sure everything we build is as easy to use as it is to look at. He believes that great software shouldn't need a manual.",
       icon: '🎨'
     },
     {
       name: 'John Manuel Vercher',
-      role: 'CTO (Chief Technology Officer)',
-      bio: "John handles the technical heavy lifting, building the robust architecture that powers our software. He's dedicated to creating fast, secure, and scalable solutions.",
+      role: 'CTO',
+      bio: "John makes sure the gears behind our software are fast, secure, and ready for anything. He brings over 13 years of engineering experience to every project.",
       icon: '👨‍💻'
     },
     {
       name: 'Seth Lawrence',
       role: 'CFO',
-      bio: "Seth keeps our operations running smoothly, managing the business side so our engineers can focus on building. He ensures everything we do is built on a stable foundation.",
+      bio: "Seth keeps our operations running smoothly. As a lifelong friend turned family, he ensures our firm is built on the same trust we give our clients.",
       icon: '📊'
     }
   ];
 
   const pillars = [
     {
-      title: 'Technical Excellence',
-      description: 'We prioritize clean, maintainable, and efficient code in every build.'
+      title: 'Clean Engineering',
+      description: 'We write simple, efficient code that’s built to last and easy to maintain.'
     },
     {
       title: 'Strategic Design',
-      description: 'Our designs aren\'t just pretty; they are engineered to solve business problems.'
+      description: 'We don’t just make things pretty; we design them to solve real problems.'
     },
     {
-      title: 'Long-term Partnership',
-      description: 'We don\'t just ship and leave; we scale with your business.'
+      title: 'Local Partnership',
+      description: 'We’re a local firm. When you work with us, you’re working with neighbors who care.'
     }
   ];
 
@@ -44,8 +44,7 @@ const AboutPage = () => {
         <div className="container">
           <h1 className="about-title">Our Story & <span className="gradient-text">Mission</span></h1>
           <p className="about-tagline">
-            At Vercher Technologies, we believe in the power of purposeful engineering. 
-            We bridge the gap between complex software needs and high-utility products.
+            Vercher Technologies is a family firm that believes software should be simple, honest, and built to last.
           </p>
         </div>
       </section>

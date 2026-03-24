@@ -36,21 +36,16 @@ const Home = () => {
         <div className="container">
           <div className="pipeline-grid">
             <div className="pipeline-content">
-              <h2 className="section-title">The <span className="gradient-text">Core to Custom</span> Foundation</h2>
+              <h2 className="section-title">From <span className="gradient-text">Custom Builds</span> to Essential Tools</h2>
               <p>
-                We offer a unique dual-model approach. We build high-end custom solutions for industry leaders, 
-                gaining deep insights into complex operational challenges. We use those insights to develop 
-                our own independent **Core Utility** products—providing smaller organizations with 
-                powerful, intuitive logic in streamlined packages built for ease of use.
+                We do two things: we build complex, custom software for industry leaders, and we take those same insights to build simple, affordable tools for small businesses and churches.
               </p>
               <p>
-                Conversely, any of our core utilities can be expanded into a fully custom, bespoke solution 
-                tailored exclusively to your organization's unique requirements, ensuring a perfect 
-                fit as your business scales.
+                This "Core to Custom" approach means our neighbors get the same professional-grade logic used by big companies, but in streamlined packages that are actually easy to use.
               </p>
             </div>
             <div className="pipeline-visual glass">
-              <div className="pipeline-tag">CUSTOM &rarr; UTILITY</div>
+              <div className="pipeline-tag">CUSTOM &rarr; SOLUTIONS</div>
             </div>
           </div>
         </div>
@@ -65,7 +60,7 @@ const Home = () => {
             <div className="about-content">
               <h2 className="section-title">Who We <span className="gradient-text">Are</span></h2>
               <p>
-                Vercher Technologies is a family-owned software firm rooted on the Mississippi Gulf Coast. We believe in building software with the same integrity we bring to our community—bridging the gap between high-end custom engineering and high-utility tools for small businesses and ministries.
+                Vercher Technologies is a family firm rooted on the Mississippi Gulf Coast. We believe in building software with the same integrity we bring to our community—making high-end engineering accessible and useful for the local businesses and ministries that keep our neighborhood running.
               </p>
               <Link to="/about" className="btn-secondary">Learn More About Our Story</Link>
             </div>

@@ -6,15 +6,15 @@ import './ShepherdsCoreDetailPage.css';
 const ShepherdsCoreDetailPage = () => {
   const mainFeatures = [
     { 
-      title: 'Absolute Data Security', 
-      desc: 'In an era of endless cloud breaches, true security means physical control. Your data remains on your hardware—exactly where it belongs.',
-      points: ['Stored Locally', 'Zero Telemetry', 'Offline-First Access'],
+      title: 'Security You Can Trust', 
+      desc: 'In an era of cloud breaches, true security means physical control. Your data stays on your hardware—exactly where it belongs.',
+      points: ['Stored Locally', 'No Hidden Data Tracking', 'Works Without Internet'],
       icon: '🛡️'
     },
     { 
-      title: 'Physical Data Ownership', 
-      desc: 'You buy it, you own it. No forced subscriptions, no cloud-locked databases, and no "member tax" for growing your congregation.',
-      points: ['Perpetual License', 'Direct SQL Access', 'Independent Backups'],
+      title: 'Ownership is Stewardship', 
+      desc: 'You buy it, you own it. No monthly bills, no cloud locks, and no "member tax" for growing your congregation.',
+      points: ['Perpetual License', 'Complete Data Access', 'Simple Backups'],
       icon: '🔑'
     }
   ];
@@ -24,9 +24,9 @@ const ShepherdsCoreDetailPage = () => {
       <section className="detail-hero">
         <div className="container">
           <div className="hero-content">
-            <span className="product-badge glass">The Stewardship Standard</span>
+            <span className="product-badge glass">Built for Stewardship</span>
             <h1 className="detail-title">Shepherds<span className="gradient-text">Core</span></h1>
-            <p className="detail-tagline">The Intuitive Foundation for Member Management in the Community Church.</p>
+            <p className="detail-tagline">A Simple Way to Manage Your Church and Protect Your Data.</p>
             <div className="hero-actions">
               <Link to="/products/shepherdscore/buy" className="btn-primary glass">Get Started Today</Link>
               <a href="#stewardship" className="scroll-hint">Explore the Story ↓</a>
@@ -40,25 +40,25 @@ const ShepherdsCoreDetailPage = () => {
           <div className="story-grid">
             <div className="story-content">
               <span className="section-label">Our Philosophy</span>
-              <h2>The <span className="gradient-text">Stewardship</span> Story</h2>
+              <h2>Our <span className="gradient-text">Philosophy</span></h2>
               <p className="lead-text">
-                ShepherdsCore was born from a simple observation: small and medium churches were being overlooked by complex, overpriced cloud vendors.
+                ShepherdsCore was born from a simple observation: small and medium churches were being over-complicated and over-charged by cloud vendors.
               </p>
               <div className="story-bits">
                 <div className="story-bit">
                   <span className="bit-icon">🌱</span>
-                  <p>Built for the local congregation, stripped of unnecessary technical bloat.</p>
+                  <p>We built it for the local congregation, stripping away the complexity so you can focus on ministry.</p>
                 </div>
                 <div className="story-bit">
                   <span className="bit-icon">🤝</span>
-                  <p>Designed for the community churches that form the backbone of our faith.</p>
+                  <p>We designed it for the community churches that form the backbone of our faith.</p>
                 </div>
               </div>
               <p>
-                We've taken high-level logic and generalized it into a high-performance, essential utility that helps smaller churches protect their legacy—without the drain of monthly subscription fees.
+                Our mission was to take powerful logic and make it simple. What remains is an essential tool that helps you protect your church's legacy—without a monthly bill that never ends.
               </p>
               <div className="custom-upsell-mini glass">
-                <p><strong>Need something even more custom?</strong> While ShepherdsCore is built for simplicity, we can still build bespoke extensions for your unique needs.</p>
+                <p><strong>Need something more specific?</strong> If ShepherdsCore doesn’t quite fit your workflow, let’s talk about a custom build tailored exactly for you.</p>
                 <Link to="/contact" className="upsell-link">Discuss Custom Build →</Link>
               </div>
             </div>

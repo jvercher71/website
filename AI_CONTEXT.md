@@ -34,7 +34,8 @@ We operate a dual-model approach:
 3. **Flexible Scaling**: Any core utility can be expanded into a fully bespoke solution as a client's needs grow.
 
 ## 5. Marketing & Identity Standards
-- **Tone & Voice**: Professional yet personal; emphasis on family-owned integrity and Mississippi roots. Focus on being a "Local Firm for Local Needs".
+- **Tone & Voice**: Conversational, grounded, and approachable. Emphasis on family-owned integrity and Mississippi roots. Focus on being a "Local Firm for Local Needs."
+- **Plain English**: Avoid corporate jargon and rigid "marketing-speak." Use direct, active verbs and simpler descriptions (e.g., "Software built to last" instead of "Ultimate Technical Excellence").
 - **Small-Church Priority**: Highlight that we build for the congregations that cloud vendors often overlook—those who need simple, powerful tools without the subscription bloat.
 - **Stewardship First**: Position software purchases as high-fidelity investments that protect ministry legacies and financial resources.
 - **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
