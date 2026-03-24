@@ -23,18 +23,19 @@ This document is the primary source of truth for AI assistants working on the Ve
 - `/projects`: Portfolio highlighting custom builds and foundational products.
 - `/contact`: Lead capture for custom builds and partnerships.
 - `/products/shepherdscore`: Flagship church management product ($600 Lifetime License).
-    - **Marketing Focus**: **Stewardship & Legacy** for congregations.
+    - **Marketing Focus**: **Stewardship & Simplicity** for small to medium congregations.
     - **Key Argument**: $600 lifetime ownership is a massive act of stewardship compared to cloud subscriptions ($4,000 - $7,000+ over 5 years).
     - **Data Sovereignty**: Physical control of data is a primary security and trust differentiator.
 
 ## 4. Business Model: The "Core to Custom" Foundation
 We operate a dual-model approach:
 1. **Custom Development**: Bespoke builds for industry leaders, providing deep operational insights.
-2. **Core Utility**: Independent products built using foundational patterns from our custom work, offered as affordable "Sourced" software for startups and small businesses.
+2. **Core Utility**: Independent products built with a focus on simplicity and high utility, providing smaller organizations with enterprise-grade logic in streamlined, easy-to-manage packages.
 3. **Flexible Scaling**: Any core utility can be expanded into a fully bespoke solution as a client's needs grow.
 
 ## 5. Marketing & Identity Standards
-- **Tone & Voice**: Professional yet personal; emphasis on family-owned integrity and Mississippi roots. Move away from cold "Collective" terminology toward "Family-Owned Firm".
+- **Tone & Voice**: Professional yet personal; emphasis on family-owned integrity and Mississippi roots. Focus on being a "Local Firm for Local Needs".
+- **Small-Church Priority**: Highlight that we build for the congregations that cloud vendors often overlook—those who need simple, powerful tools without the subscription bloat.
 - **Stewardship First**: Position software purchases as high-fidelity investments that protect ministry legacies and financial resources.
 - **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
 

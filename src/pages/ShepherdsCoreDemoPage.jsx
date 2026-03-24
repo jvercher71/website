@@ -9,7 +9,7 @@ const ShepherdsCoreDemoPage = () => {
           <span className="product-badge">ShepherdsCore</span>
           <h1 className="demo-title">Request a <span className="gradient-text">Ministry Demo</span></h1>
           <p className="demo-tagline">
-            Experience how ShepherdsCore can streamline your church operations. 
+            Experience how ShepherdsCore can simplify your community ministry. 
             Fill out the form below and our team will be in touch to schedule a personalized walkthrough.
           </p>
         </div>
@@ -51,8 +51,8 @@ const ShepherdsCoreDemoPage = () => {
                 <select id="churchSize">
                   <option value="small">Under 100 members</option>
                   <option value="medium">100 - 500 members</option>
-                  <option value="large">500 - 2,000 members</option>
-                  <option value="enterprise">Over 2,000 members (Custom Build Recommended)</option>
+                  <option value="large">500 - 1,000 members</option>
+                  <option value="bespoke">Over 1,000 members (Bespoke Solution Recommended)</option>
                 </select>
               </div>
               <div className="form-group">

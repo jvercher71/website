@@ -26,7 +26,7 @@ const ShepherdsCoreDetailPage = () => {
           <div className="hero-content">
             <span className="product-badge glass">The Stewardship Standard</span>
             <h1 className="detail-title">Shepherds<span className="gradient-text">Core</span></h1>
-            <p className="detail-tagline">The Ultimate Foundation for Church Administration & Legacy Protection.</p>
+            <p className="detail-tagline">The Intuitive Foundation for Member Management in the Community Church.</p>
             <div className="hero-actions">
               <Link to="/products/shepherdscore/buy" className="btn-primary glass">Get Started Today</Link>
               <a href="#stewardship" className="scroll-hint">Explore the Story ↓</a>
@@ -42,23 +42,23 @@ const ShepherdsCoreDetailPage = () => {
               <span className="section-label">Our Philosophy</span>
               <h2>The <span className="gradient-text">Stewardship</span> Story</h2>
               <p className="lead-text">
-                ShepherdsCore wasn't built in a vacuum. It was forged through years of custom development for some of the largest congregations in the country.
+                ShepherdsCore was born from a simple observation: small and medium churches were being overlooked by complex, overpriced cloud vendors.
               </p>
               <div className="story-bits">
                 <div className="story-bit">
-                  <span className="bit-icon">🚀</span>
-                  <p>Developed from enterprise-grade logic, stripped of unnecessary cloud bloat.</p>
+                  <span className="bit-icon">🌱</span>
+                  <p>Built for the local congregation, stripped of unnecessary technical bloat.</p>
                 </div>
                 <div className="story-bit">
                   <span className="bit-icon">🤝</span>
-                  <p>Designed for churches that value financial wisdom and data sovereignty.</p>
+                  <p>Designed for the community churches that form the backbone of our faith.</p>
                 </div>
               </div>
               <p>
-                What remains is a high-performance, essential utility that helps churches of all sizes protect their legacy and thrive—without the recurring enterprise price tag.
+                We've taken high-level logic and generalized it into a high-performance, essential utility that helps smaller churches protect their legacy—without the drain of monthly subscription fees.
               </p>
               <div className="custom-upsell-mini glass">
-                <p><strong>Need something even more custom?</strong> We build bespoke versions tailored uniquely to your specific workflows.</p>
+                <p><strong>Need something even more custom?</strong> While ShepherdsCore is built for simplicity, we can still build bespoke extensions for your unique needs.</p>
                 <Link to="/contact" className="upsell-link">Discuss Custom Build →</Link>
               </div>
             </div>

@@ -9,8 +9,8 @@ const ProductsPage = () => {
       name: 'ShepherdsCore',
       badge: 'Bestseller',
       category: 'Church Management',
-      tagline: 'Generalized excellence for modern ministry.',
-      description: 'The essential platform for member tracking, giving, and volunteer management. Built from enterprise-grade custom solutions.',
+      tagline: 'Streamlined management for the community church.',
+      description: 'The essential platform for member tracking, giving, and volunteer management. Designed for simplicity and stewardship.',
       price: '$600',
       icon: '⛪',
       path: '/products/shepherdscore'

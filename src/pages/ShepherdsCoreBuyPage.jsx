@@ -25,7 +25,7 @@ const ShepherdsCoreBuyPage = () => {
       <section className="buy-hero">
         <div className="container">
           <h1 className="buy-title">Choose Your <span className="gradient-text">Plan</span></h1>
-          <p className="buy-tagline">Generalized ShepherdsCore licenses for congregations of all sizes.</p>
+          <p className="buy-tagline">ShepherdsCore for the small to medium-sized congregation.</p>
         </div>
       </section>
 
@@ -51,11 +51,11 @@ const ShepherdsCoreBuyPage = () => {
           <div className="upsell-container">
             <div className="upsell-card glass highlight-border">
               <div className="upsell-content">
-                <div className="upsell-badge">Enterprise Edition</div>
+                <div className="upsell-badge">Custom Solution</div>
                 <h2>Need a Custom <span className="gradient-text">Build?</span></h2>
                 <p>
-                  For mega-churches or multi-site organizations with unique custom requirements, our "Utility" version might not be enough. 
-                  We can build a **bespoke ShepherdsCore experience** tailored specifically to your church's internal workflows.
+                  For churches with unique custom requirements or complex specific workflows, 
+                  we can build a **bespoke ShepherdsCore experience** tailored exactly to your needs.
                 </p>
                 <div className="upsell-features">
                   <span>✨ Dedicated Developer Role</span>

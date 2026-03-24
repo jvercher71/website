@@ -41,7 +41,7 @@ const Home = () => {
                 We offer a unique dual-model approach. We build high-end custom solutions for industry leaders, 
                 gaining deep insights into complex operational challenges. We use those insights to develop 
                 our own independent **Core Utility** products—providing smaller organizations with 
-                enterprise-grade logic in affordable, streamlined packages.
+                powerful, intuitive logic in streamlined packages built for ease of use.
               </p>
               <p>
                 Conversely, any of our core utilities can be expanded into a fully custom, bespoke solution 

@@ -21,7 +21,7 @@ const ProjectsPage = () => {
         <div className="container">
           <h1 className="projects-title">Our <span className="gradient-text">Work</span></h1>
           <p className="projects-tagline">
-            From bespoke enterprise builds to high-value utility generalizations. 
+            From bespoke custom builds for industry leaders to high-utility tools for community organizations. 
             We build software that solves problems, whether custom or productized.
           </p>
         </div>
@@ -34,9 +34,9 @@ const ProjectsPage = () => {
               <h2>The <span className="gradient-text">Core to Custom</span> Foundation</h2>
               <p>
                 We provide a unique dual-model approach. We gain deep industry insights from our high-end custom builds, 
-                which we use to develop independent, high-utility products. This allows us to provide enterprise-grade 
-                logic in affordable, streamlined packages—while ensuring our custom clients receive entirely 
-                unique, proprietary solutions.
+                which we use to develop independent, high-utility products. This allows us to provide powerful, 
+                professional-grade logic in affordable, streamlined packages—while ensuring our custom 
+                clients receive entirely unique, proprietary solutions.
               </p>
             </div>
             <div className="model-visual">
