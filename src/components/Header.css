@@ -37,10 +37,11 @@
   font-size: 1.5rem;
   letter-spacing: -0.5px;
   color: var(--text-main);
-  background: var(--accent-gradient);
+  background: var(--gold-gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.2));
 }
 
 .logo-sub {
@@ -69,8 +70,8 @@
 
 .nav-link:hover,
 .nav-link.active {
-  color: var(--text-main);
-  text-shadow: 0 0 8px var(--accent-primary);
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
 }
 
 .cta-button {
