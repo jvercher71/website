@@ -35,10 +35,12 @@ We operate a dual-model approach:
 
 ## 5. Marketing & Identity Standards
 - **Tone & Voice**: Conversational, grounded, and approachable. Emphasis on family-owned integrity and Mississippi roots. Focus on being a "Local Firm for Local Needs."
+- **Plain English**: Avoid corporate jargon and rigid "marketing-speak." Use direct, active verbs and simpler descriptions. 
+    - **Avoid**: "Absolute," "Uncompromising," "Ultimate," "High-Fidelity."
+    - **Prefer**: "Simple," "Honest," "Built to last," "Trustworthy."
 - **Sales vs. Skill**: 
     - **Sales (Products)**: Focus on simplicity, stewardship, and "No monthly bills."
     - **Skill (Projects)**: Focus on architecture, technical problem-solving, and engineering excellence.
-- **Plain English**: Avoid corporate jargon in sales copy. Use professional, clear technical terminology in Case Studies.
 - **Small-Church Priority**: Highlight that we build for the congregations that cloud vendors often overlook—those who need simple, powerful tools without the subscription bloat.
 - **Stewardship First**: Position software purchases as high-fidelity investments that protect ministry legacies and financial resources.
 - **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
