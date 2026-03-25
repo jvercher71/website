@@ -82,10 +82,11 @@ button {
 
 /* Gradient Text */
 .gradient-text {
-  background: var(--accent-gradient);
+  background: var(--gold-gradient); /* Use gold for better readability on dark mesh */
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 800;
 }
 
 /* Scrollbar */

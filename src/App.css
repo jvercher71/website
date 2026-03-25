@@ -138,17 +138,38 @@ main {
   color: var(--text-muted);
 }
 
-/* --- CONTACT SECTION --- */
-.contact-section {
-  padding: 120px 0;
-}
+@media (max-width: 768px) {
+  .pathway-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
 
-.contact-container {
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 4rem;
-  padding: 4rem;
-  border-radius: 40px;
+  .pathway-card {
+    padding: 3rem 1.5rem;
+    border-radius: 32px;
+  }
+
+  .pathway-card h2 {
+    font-size: 2.25rem;
+  }
+
+  /* Fix broken button formatting */
+  .btn-primary, .btn-secondary {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 100px !important; /* Ensure it stays a pill */
+    font-size: 1rem;
+    box-sizing: border-box;
+    overflow: visible; /* Prevent clipping */
+  }
+
+  .about-grid,
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
 }
 
 .contact-info p {
