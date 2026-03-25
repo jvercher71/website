@@ -38,7 +38,7 @@ const ProductsPage = () => {
               <div key={product.id} className="product-card glass">
                 <div className="product-header">
                   <div className="product-icon-large">{product.icon}</div>
-                  {product.badge && <span className="badge-premium highlight">{product.badge}</span>}
+                  {product.badge && <span className="product-badge-pill">{product.badge}</span>}
                 </div>
                 <div className="product-info">
                   <span className="product-cat">{product.category}</span>

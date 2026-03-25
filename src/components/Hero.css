@@ -138,40 +138,20 @@
 
 @media (max-width: 768px) {
   .hero-title {
-    font-size: 2.75rem;
-    line-height: 1.1;
+    font-size: 3rem;
   }
   
   .hero-description {
     font-size: 1.1rem;
-    margin-bottom: 2.5rem;
-  }
-  
-  .blob {
-    width: 300px; /* Much smaller blobs on mobile */
-    height: 300px;
-    opacity: 0.2;
-    filter: blur(60px);
-  }
-
-  .hero::after {
-    width: 200px;
-    height: 200px;
-    right: 5%;
   }
   
   .hero-actions {
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 1rem;
   }
   
   .btn-primary, .btn-secondary {
     width: 100%;
     text-align: center;
-    padding: 1rem 2rem;
-  }
-  
-  .btn-secondary {
-    text-shadow: 0 1px 5px rgba(0,0,0,0.5); /* Better readability for white text on glass */
   }
 }
