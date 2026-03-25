@@ -7,18 +7,20 @@
   --accent-primary: hsl(260, 100%, 70%); /* Soft Purple */
   --accent-secondary: hsl(210, 100%, 60%); /* Electric Blue */
   --accent-gold: hsl(45, 100%, 58%); /* Gold Leaf */
+  --accent-gold-glow: rgba(255, 215, 0, 0.25);
   --accent-gradient: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
   --gold-gradient: linear-gradient(135deg, #FFD700 0%, #B8860B 100%);
   
   --text-main: hsl(0, 0%, 98%);
-  --text-muted: hsl(240, 5%, 70%);
+  --text-muted: hsl(240, 5%, 75%); /* Slightly brighter for better legibility on dark */
   
-  --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.08);
-  --glass-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  --glass-glow: 0 0 30px var(--accent-gold-glow);
   
   --header-height: 80px;
-  --transition-smooth: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+  --transition-smooth: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 * {

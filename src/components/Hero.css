@@ -18,92 +18,117 @@
 
 .blob {
   position: absolute;
-  width: 600px;
-  height: 600px;
+  width: 800px;
+  height: 800px;
   border-radius: 50%;
-  filter: blur(80px);
-  opacity: 0.15;
-  animation: float 20s infinite alternate;
+  filter: blur(120px);
+  opacity: 0.25; /* More vibrant background blobs */
+  animation: float 25s infinite alternate;
 }
 
 .blob-1 {
   background: var(--accent-primary);
-  top: -100px;
+  top: -200px;
   right: -100px;
 }
 
 .blob-2 {
   background: var(--accent-secondary);
-  bottom: -100px;
+  bottom: -200px;
   left: -100px;
-  animation-delay: -5s;
+  animation-delay: -8s;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  right: 15%;
+  width: 400px;
+  height: 400px;
+  background: var(--accent-gold);
+  border-radius: 50%;
+  filter: blur(150px);
+  opacity: 0.1;
+  pointer-events: none;
 }
 
 @keyframes float {
-  0% { transform: translate(0, 0) scale(1); }
-  33% { transform: translate(30px, -50px) scale(1.1); }
-  66% { transform: translate(-20px, 20px) scale(0.9); }
-  100% { transform: translate(0, 0) scale(1); }
+  0% { transform: translate(0, 0) scale(1) rotate(0deg); }
+  33% { transform: translate(50px, -80px) scale(1.1) rotate(5deg); }
+  66% { transform: translate(-40px, 40px) scale(0.9) rotate(-5deg); }
+  100% { transform: translate(0, 0) scale(1) rotate(0deg); }
 }
 
 .hero-container {
   position: relative;
-  z-index: 1;
+  z-index: 10;
 }
 
 .hero-content {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .hero-title {
-  font-size: 4.5rem;
-  line-height: 1.1;
-  margin-bottom: 1.5rem;
-  animation: fadeInUp 1s ease-out;
+  font-size: 5.5rem; /* Larger, more impactful heading */
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .hero-description {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   color: var(--text-muted);
-  margin-bottom: 2.5rem;
-  max-width: 600px;
-  animation: fadeInUp 1s ease-out 0.2s backwards;
+  margin-bottom: 3.5rem;
+  max-width: 700px;
+  line-height: 1.6;
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.15s backwards;
 }
 
 .hero-actions {
   display: flex;
-  gap: 1.5rem;
-  animation: fadeInUp 1s ease-out 0.4s backwards;
+  gap: 2rem;
+  animation: fadeInUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.3s backwards;
 }
 
 .btn-primary {
-  padding: 1rem 2.5rem;
-  border-radius: 12px;
-  font-size: 1rem;
+  padding: 1.2rem 3.5rem;
+  border-radius: 100px; /* Modern pill shape */
+  font-size: 1.1rem;
   font-weight: 700;
-  color: var(--text-main);
-  background: var(--accent-gradient);
+  color: #000; /* Contrast font on gold */
+  background: var(--gold-gradient);
+  box-shadow: 0 4px 20px rgba(255, 215, 0, 0.3);
+  transition: var(--transition-smooth);
+}
+
+.btn-primary:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 30px rgba(255, 215, 0, 0.5);
 }
 
 .btn-secondary {
-  padding: 1rem 2.5rem;
-  border-radius: 12px;
-  font-size: 1rem;
+  padding: 1.2rem 3.5rem;
+  border-radius: 100px;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--text-main);
   border: 1px solid var(--glass-border);
   background: var(--glass-bg);
+  backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-  background: var(--glass-border);
-  border-color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--accent-gold);
 }
 
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(40px);
   }
   to {
     opacity: 1;

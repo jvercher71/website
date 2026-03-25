@@ -20,40 +20,50 @@ main {
   width: 100%;
   height: 100%;
   background: 
-    radial-gradient(circle at 0% 0%, rgba(138, 43, 226, 0.15) 0%, transparent 50%),
-    radial-gradient(circle at 100% 100%, rgba(0, 191, 255, 0.1) 0%, transparent 50%),
-    radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.02) 0%, transparent 50%);
+    radial-gradient(circle at 10% 20%, rgba(138, 43, 226, 0.2) 0%, transparent 60%),
+    radial-gradient(circle at 90% 80%, rgba(0, 191, 255, 0.15) 0%, transparent 60%),
+    radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.04) 0%, transparent 60%);
   z-index: -1;
   pointer-events: none;
+  filter: contrast(1.1) saturate(1.2);
+  animation: drift 30s infinite alternate ease-in-out;
+}
+
+@keyframes drift {
+  from { transform: scale(1) translate(0, 0); }
+  to { transform: scale(1.1) translate(20px, -20px); }
 }
 
 /* --- STRATEGIC PATHWAYS (Home) --- */
 .pathway-selection {
-  padding: 120px 0 60px;
+  padding: 140px 0 80px;
 }
 
 .pathway-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .pathway-card {
-  padding: 4rem;
-  border-radius: 40px;
+  padding: 5rem 4rem;
+  border-radius: 48px;
   text-align: center;
   transition: var(--transition-smooth);
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(20px);
 }
 
 .pathway-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-15px) scale(1.02);
   border-color: var(--accent-gold);
-  box-shadow: 0 20px 40px rgba(255, 215, 0, 0.05);
+  box-shadow: var(--glass-shadow), var(--glass-glow);
 }
 
 .pathway-card.highlight {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 215, 0, 0.2);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  background: rgba(255, 215, 0, 0.02);
 }
 
 .pathway-icon {
