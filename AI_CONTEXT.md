@@ -34,16 +34,15 @@ We operate a dual-model approach:
 3. **Flexible Scaling**: Any core utility can be expanded into a fully bespoke solution as a client's needs grow.
 
 ## 5. Marketing & Identity Standards
-- **Tone & Voice**: Conversational, grounded, and approachable. Emphasis on family-owned integrity and Mississippi roots. Focus on being a "Local Firm for Local Needs."
-- **Plain English**: Avoid corporate jargon and rigid "marketing-speak." Use direct, active verbs and simpler descriptions. 
-    - **Avoid**: "Absolute," "Uncompromising," "Ultimate," "High-Fidelity."
-    - **Prefer**: "Simple," "Honest," "Built to last," "Trustworthy."
+- **Tone & Voice**: Professional yet personal; emphasis on family-owned integrity and Mississippi roots. Focus on being a **"Premier Family Firm"** for both custom and utility software.
+- **Stewardship & Legacy**: Position software as a high-fidelity investment that protects ministry legacies and financial resources.
+- **Design Aesthetic**: "WOW" Premium. Strictly follow the **High-Fidelity** design system:
+    - **Visual Depth**: Glassmorphism with deep blurs (`20px`) and gold glows.
+    - **Branding**: Gold-leaf gradients and floating micro-animations.
+    - **Backgrounds**: Vibrant, dynamic mesh gradients (radial purple/blue drifts).
 - **Sales vs. Skill**: 
-    - **Sales (Products)**: Focus on simplicity, stewardship, and "No monthly bills."
-    - **Skill (Projects)**: Focus on architecture, technical problem-solving, and engineering excellence.
-- **Small-Church Priority**: Highlight that we build for the congregations that cloud vendors often overlook—those who need simple, powerful tools without the subscription bloat.
-- **Stewardship First**: Position software purchases as high-fidelity investments that protect ministry legacies and financial resources.
-- **Visuals**: Always prioritize high-fidelity UI previews or CSS-based mockups to maintain a "Premium" aesthetic.
+    - **Sales (Products)**: Focus on simplicity, stewardship, and the massive act of $600 lifetime ownership.
+    - **Skill (Projects)**: Focus on technical problem-solving, architectural excellence, and engineering transparency.
 
 ## 6. Technical Case Study Standards
 Every project in the `/projects` directory must follow this technical deep-dive structure:
@@ -53,13 +52,9 @@ Every project in the `/projects` directory must follow this technical deep-dive 
 - **Result**: The measured impact or the high-fidelity outcome.
 
 ## 7. Repository & Branch Strategy
-- **Primary Origin (Main Live Site)**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
-- **Secondary Archive**: [https://github.com/jvercher71/websites.git](https://github.com/jvercher71/websites.git)
-- **Primary Branch**: `main` (All production-ready work must be pushed to singular `website.git`).
-- **Deployment**: Vercel (Auto-deployed directly from `website.git/main`).
-
-> [!IMPORTANT]
-> **Production Source**: The singular `website.git` is the ONLY source for the live site. Do not use the plural `websites.git` for production deployment.
+- **Primary Origin**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
+- **Primary Branch**: `main` (Production source).
+- **Deployment**: Vercel (Auto-deployed from `main`).
 
 ## 7. Technical Standards
 - **Responsive**: Mobile-first architecture required.
