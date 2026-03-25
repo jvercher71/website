@@ -137,14 +137,6 @@
 }
 
 @media (max-width: 768px) {
-  .header-container {
-    padding: 0 1.25rem; /* Ensure logo isn't too close to edge */
-  }
-
-  .desktop-nav {
-    font-size: 2.75rem;
-    line-height: 1.1;
-  }
   .hero-title {
     font-size: 2.75rem;
     line-height: 1.1;
@@ -181,6 +173,5 @@
   
   .btn-secondary {
     text-shadow: 0 1px 5px rgba(0,0,0,0.5); /* Better readability for white text on glass */
-    background: rgba(0, 0, 0, 0.4); /* Darker backdrop for better contrast on mobile blobs */
   }
 }
