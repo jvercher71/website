@@ -24,7 +24,7 @@ const ShepherdsCoreDetailPage = () => {
       <section className="detail-hero">
         <div className="container">
           <div className="hero-content">
-            <span className="badge-premium highlight">Built for Stewardship</span>
+            <span className="product-badge glass">Built for Stewardship</span>
             <h1 className="detail-title">Shepherds<span className="gradient-text">Core</span></h1>
             <p className="detail-tagline">A Simple Way to Manage Your Church and Protect Your Data.</p>
             <div className="hero-actions">
