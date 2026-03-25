@@ -16,16 +16,8 @@
 }
 
 .product-badge {
-  display: inline-block;
-  padding: 0.6rem 1.4rem;
-  border-radius: 100px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--accent-primary);
+  /* Using the global badge-premium class via JSX */
   margin-bottom: 2.5rem;
-  border: 1px solid var(--glass-border);
 }
 
 .detail-title {
@@ -71,7 +63,7 @@
   display: block;
   font-size: 0.85rem;
   font-weight: 800;
-  color: var(--accent-secondary);
+  color: var(--accent-gold); /* Increased contrast */
   text-transform: uppercase;
   letter-spacing: 0.2em;
   margin-bottom: 1.5rem;
@@ -191,8 +183,7 @@
   display: block;
   margin-top: 1rem;
   font-weight: 700;
-  color: var(--accent-primary);
-  text-decoration: underline;
+  color: var(--accent-gold);
 }
 
 /* Trust Section */
@@ -279,7 +270,7 @@
 
 .security-card:hover {
   transform: translateY(-10px);
-  border-color: var(--accent-primary);
+  border-color: var(--accent-gold);
 }
 
 .card-icon {
@@ -316,7 +307,7 @@
 }
 
 .security-points .check {
-  color: var(--accent-secondary);
+  color: var(--accent-gold);
   font-weight: 900;
 }
 
@@ -326,7 +317,7 @@
   gap: 3rem;
   padding: 4rem;
   border-radius: 40px;
-  border: 1px solid rgba(134, 59, 255, 0.2);
+  border: 1px solid rgba(255, 215, 0, 0.2);
 }
 
 .backup-icon {
@@ -350,7 +341,7 @@
   background: rgba(255, 255, 255, 0.07);
   padding: 0.3rem 0.6rem;
   border-radius: 8px;
-  color: var(--accent-secondary);
+  color: var(--accent-gold);
   font-weight: 700;
 }
 
@@ -372,7 +363,7 @@
   padding: 6rem;
   text-align: center;
   border-radius: 60px;
-  background: radial-gradient(circle at bottom right, rgba(99, 102, 241, 0.1), transparent);
+  background: radial-gradient(circle at bottom right, rgba(255, 215, 0, 0.05), transparent);
 }
 
 .cta-card h2 {
@@ -422,17 +413,21 @@
 }
 
 @media (max-width: 768px) {
-  .detail-hero { padding: 120px 0 80px; }
-  .detail-title { font-size: 3rem; }
-  .detail-tagline { font-size: 1.2rem; }
-  .section-title { font-size: 2.5rem; }
-  .trust-quote { font-size: 1.8rem; }
+  .detail-hero { padding: 100px 0 60px; }
+  .detail-title { font-size: 2.5rem; letter-spacing: -1px; }
+  .detail-tagline { font-size: 1.1rem; }
+  .section-title { font-size: 2rem; }
+  .trust-quote { font-size: 1.6rem; }
+  .trust-card { padding: 3rem 1.5rem; border-radius: 32px; }
+  .security-card { padding: 2.5rem 1.5rem; border-radius: 24px; }
   .backup-info {
     flex-direction: column;
     text-align: center;
-    padding: 2.5rem;
+    padding: 2.5rem 1.5rem;
   }
-  .cta-card { padding: 4rem 2rem; }
-  .cta-card h2 { font-size: 2.5rem; }
-  .cta-actions { flex-direction: column; }
+  .cta-card { padding: 3.5rem 1.5rem; border-radius: 32px; }
+  .cta-card h2 { font-size: 2.25rem; }
+  .cta-card p { font-size: 1.25rem; }
+  .cta-actions { flex-direction: column; width: 100%; }
+  .cta-actions .btn-primary, .cta-actions .btn-secondary { width: 100%; text-align: center; }
 }
