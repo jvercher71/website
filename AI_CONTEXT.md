@@ -11,9 +11,11 @@ This document is the primary source of truth for AI assistants working on the Ve
 - **Tailored Innovation**: Bespoke solutions for unique business needs.
 
 ## 2. Technology Stack
-- **Frontend**: Vite + React
-- **Routing**: `react-router-dom` (Version 7+)
+- **Frontend**: Next.js (migrating from Vite + React)
 - **Styling**: Vanilla CSS (Global `index.css` for design system, component-specific CSS files).
+- **Database**: PostgreSQL (Supabase)
+- **Auth**: Clerk
+- **Payments**: Paddle (handles VAT/tax automatically, preferred over Stripe)
 - **Deployment**: Vercel (linked to GitHub `main` branch).
 
 ## 3. Site Map & Navigation
@@ -26,6 +28,8 @@ This document is the primary source of truth for AI assistants working on the Ve
 - `/projects/shepherdscore`: Technical Case Study (**Skill Showcase**).
     - **Engineering Focus**: Local-First architecture, SQLite, and data sovereignty.
 - `/contact`: Lead capture for custom builds and partnerships.
+- `/blog`: SEO-driven content hub (planned).
+- `/terms`: Terms of Service, Privacy Policy, and Refund Policy (live).
 
 ## 4. Business Model: The "Core to Custom" Foundation
 We operate a dual-model approach:
@@ -52,9 +56,17 @@ Every project in the `/projects` directory must follow this technical deep-dive 
 - **Result**: The measured impact or the high-fidelity outcome.
 
 ## 7. Repository & Branch Strategy
-- **Primary Origin**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
+- **Primary Origin**: [https://github.com/VELLCAdmin/VercherTechnologies.one.git](https://github.com/VELLCAdmin/VercherTechnologies.one.git)
+- **Mirror**: [https://github.com/jvercher71/website.git](https://github.com/jvercher71/website.git)
 - **Primary Branch**: `main` (Production source).
 - **Deployment**: Vercel (Auto-deployed from `main`).
+
+## 8. Product Roadmap
+1. **Form Builder SaaS** — First Core Utility product. Tiers: Starter $15/mo, Professional $49/mo, Agency $149/mo, Enterprise custom. Payments via Paddle.
+2. **Blog** — SEO content hub launching alongside or just after the Form Builder.
+3. **SEO Monitoring Tool** — Month 2-3 target.
+4. **Client Portal** — Month 3-4 target, natural upsell from service clients.
+- **App Hub**: `app.verchertechnologies.one` (subdomain — planned, not yet live).
 
 ## 7. Technical Standards
 - **Responsive**: Mobile-first architecture required.
