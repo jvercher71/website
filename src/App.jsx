@@ -10,6 +10,7 @@ import ShepherdsCoreDetailPage from './pages/ShepherdsCoreDetailPage';
 import ShepherdsCoreDemoPage from './pages/ShepherdsCoreDemoPage';
 import ShepherdsCoreBuyPage from './pages/ShepherdsCoreBuyPage';
 import ShepherdsCoreCaseStudy from './pages/ShepherdsCoreCaseStudy';
+import TermsPage from './pages/TermsPage';
 import './App.css';
 
 // Scroll to top on route change
@@ -38,6 +39,7 @@ function App() {
             <Route path="/products/shepherdscore/demo" element={<ShepherdsCoreDemoPage />} />
             <Route path="/products/shepherdscore/buy" element={<ShepherdsCoreBuyPage />} />
             <Route path="/projects/shepherdscore" element={<ShepherdsCoreCaseStudy />} />
+            <Route path="/terms" element={<TermsPage />} />
           </Routes>
         </main>
         
@@ -65,6 +67,14 @@ function App() {
                   <div className="footer-links">
                     <Link to="/products">Software Shop</Link>
                     <Link to="/products/shepherdscore">ShepherdsCore</Link>
+                  </div>
+                </div>
+                <div className="footer-col">
+                  <h4>Legal</h4>
+                  <div className="footer-links">
+                    <Link to="/terms">Terms of Service</Link>
+                    <Link to="/terms#privacy">Privacy Policy</Link>
+                    <Link to="/terms#refund">Refund Policy</Link>
                   </div>
                 </div>
               </div>

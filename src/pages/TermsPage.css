@@ -1,0 +1,145 @@
+.terms-page {
+  padding-top: var(--header-height);
+}
+
+/* ── Hero ── */
+.terms-hero {
+  padding: 100px 0 60px;
+  text-align: center;
+}
+
+.terms-title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.terms-tagline {
+  font-size: 1rem;
+  color: var(--text-muted);
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.05em;
+}
+
+.terms-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.terms-nav-link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  transition: var(--transition-smooth);
+}
+
+.terms-nav-link:hover {
+  color: var(--accent-gold);
+}
+
+.terms-nav-divider {
+  color: var(--glass-border);
+  font-size: 1.2rem;
+}
+
+/* ── Body ── */
+.terms-body {
+  padding: 0 0 120px;
+}
+
+.terms-section {
+  border-radius: 40px;
+  padding: 4rem;
+  margin-bottom: 3rem;
+  scroll-margin-top: calc(var(--header-height) + 2rem);
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.section-intro {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+/* ── Content Blocks ── */
+.terms-block {
+  margin-bottom: 2.5rem;
+}
+
+.terms-block:last-child {
+  margin-bottom: 0;
+}
+
+.terms-block h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.terms-block p {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.terms-list {
+  list-style: none;
+  margin-top: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.terms-list li {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.terms-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--accent-gold);
+  font-weight: 700;
+}
+
+.terms-link {
+  color: var(--accent-gold);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.terms-link:hover {
+  color: #fff;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .terms-title {
+    font-size: 2.5rem;
+  }
+
+  .terms-section {
+    padding: 2.5rem 1.5rem;
+    border-radius: 28px;
+  }
+
+  .section-heading {
+    font-size: 1.9rem;
+  }
+}
