@@ -52,7 +52,7 @@ const Home = () => {
       </section>
 
       <ShepherdsCore />
-      
+
       {/* Short About Preview */}
       <section id="about" className="about-section">
         <div className="container">
@@ -70,6 +70,19 @@ const Home = () => {
                 <span className="stat-label">Years Experience</span>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Legal Links */}
+      <section className="home-legal">
+        <div className="container">
+          <div className="home-legal-links">
+            <Link to="/terms">Terms of Service</Link>
+            <span className="legal-divider">·</span>
+            <Link to="/terms#privacy">Privacy Policy</Link>
+            <span className="legal-divider">·</span>
+            <Link to="/terms#refund">Refund Policy</Link>
           </div>
         </div>
       </section>

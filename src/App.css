@@ -235,6 +235,36 @@ main {
   background: rgba(255, 255, 255, 0.05);
 }
 
+/* --- HOME LEGAL LINKS --- */
+.home-legal {
+  padding: 40px 0 60px;
+  text-align: center;
+}
+
+.home-legal-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.home-legal-links a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.4);
+  transition: var(--transition-smooth);
+}
+
+.home-legal-links a:hover {
+  color: var(--accent-gold);
+}
+
+.legal-divider {
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+}
+
 /* --- MAIN FOOTER --- */
 .main-footer {
   padding: 100px 0 40px;
