@@ -8,7 +8,7 @@ const STATE = 'Mississippi';
 
 const TermsPage = () => {
   return (
-    <div className="terms-page">
+    <div className="terms-page" id="top">
       <section className="terms-hero">
         <div className="container">
           <h1 className="terms-title">Legal <span className="gradient-text">Documents</span></h1>
@@ -312,6 +312,17 @@ const TermsPage = () => {
               </p>
             </div>
           </section>
+
+          <div className="terms-bottom-nav glass">
+            <span className="terms-bottom-nav-label">Jump to:</span>
+            <a href="#terms" className="terms-nav-link">Terms of Service</a>
+            <span className="terms-nav-divider">·</span>
+            <a href="#privacy" className="terms-nav-link">Privacy Policy</a>
+            <span className="terms-nav-divider">·</span>
+            <a href="#refund" className="terms-nav-link">Refund Policy</a>
+            <span className="terms-nav-divider">·</span>
+            <a href="#top" className="terms-nav-link">Back to Top</a>
+          </div>
 
         </div>
       </div>
